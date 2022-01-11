@@ -85,7 +85,7 @@ function Tablet(props) {
           </div>
           <div className="section-5 valign-text-middle oxanium-medium-white-32px">{sectionSixText}</div>
         </div>
-        <div className="section-3">
+        <div className="section-seven-3">
           <img className="section-seven-title-1" src={sectionSevenTitle} />
           <div className="section-seven-text-1 valign-text-middle oxanium-medium-white-36px-2">
             <span>

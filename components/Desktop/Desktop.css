@@ -3,7 +3,6 @@
   flex-direction: column;
   height: 100vh;
   min-height: 4762px;
-  min-width: 1280px;
   width: 100%;
 }
 
@@ -70,6 +69,7 @@
   position: relative;
   text-align: center;
   width: 1031px;
+  z-index: 200;
 }
 
 .section-one-title {
@@ -81,6 +81,7 @@
   text-align: center;
   top: 0;
   width: 1031px;
+  z-index: 200;
 }
 
 .overlap-group {

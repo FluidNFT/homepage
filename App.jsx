@@ -8,8 +8,8 @@ import MobileOverlay from "./components/MobileOverlay";
 import Mobile from "./components/Mobile";
 
 function App() {
-  const isMobile = useMediaQuery({ query: '(max-width: 375px)' })
-  const isTablet = useMediaQuery({ query: '(max-width: 824px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 690px)' })
+  const isTablet = useMediaQuery({ query: '(max-width: 1100px)' })
 
 
   if (isMobile) {
