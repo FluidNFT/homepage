@@ -37,10 +37,6 @@ function Mobile(props) {
     <div className="container-center-horizontal">
       <div className="mobile screen">
         <div className="section-container">
-          <div className="section-two">
-            <img className="section-two-title-2" src={sectionTwoTitle} />
-            <div className="section-two-text-2 valign-text-middle oxanium-medium-white-24px">{sectionTwoText}</div>
-          </div>
           <div className="section-one-2">
             <div className="overlap-group2-2">
               <img className="logo-dark-mode-4" src={logoDarkMode} />
@@ -49,13 +45,17 @@ function Mobile(props) {
               </div>
             </div>
             <div className="section-one-title-2 valign-text-middle">{sectionOneTitle}</div>
+            <div className="section-one-text-2 valign-text-middle">{sectionOneText}</div>
             <div className="overlap-group3-2">
               <div className="background-1" style={{ backgroundImage: `url(${background})` }}></div>
-              <div className="section-one-text-2 valign-text-middle">{sectionOneText}</div>
               <div className="overlap-group-4">
                 <div className="action-text-2 valign-text-middle">{actionText}</div>
               </div>
             </div>
+          </div>
+          <div className="section-two">
+            <img className="section-two-title-2" src={sectionTwoTitle} />
+            <div className="section-two-text-2 valign-text-middle oxanium-medium-white-24px">{sectionTwoText}</div>
           </div>
         </div>
         <div className="section-three-2">
