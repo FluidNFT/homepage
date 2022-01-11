@@ -1,0 +1,269 @@
+.tablet {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 7541px;
+  width: 834px;
+}
+
+.section-one-1 {
+  align-items: center;
+  background-color: var(--eerie-black);
+  display: flex;
+  flex-direction: column;
+  min-height: 1194px;
+  width: 834px;
+}
+
+.overlap-group3-1 {
+  height: 74px;
+  position: relative;
+  width: 834px;
+}
+
+.logo-dark-mode-2 {
+  height: 31px;
+  left: 27px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 96px;
+}
+
+.navigation-1 {
+  display: flex;
+  height: 74px;
+  justify-content: flex-end;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 834px;
+}
+
+.section-one-title-1 {
+  height: 183px;
+  letter-spacing: 0;
+  margin-top: 128px;
+  text-align: center;
+  width: 672px;
+}
+
+.section-one-text-1 {
+  height: 182px;
+  letter-spacing: 0;
+  margin-top: 87px;
+  text-align: center;
+  width: 672px;
+}
+
+.overlap-group4-1 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 410px;
+  margin-top: 130px;
+  min-width: 834px;
+  padding: 25.2px 283px;
+}
+
+.overlap-group-2 {
+  align-items: flex-start;
+  background-color: var(--heat-wave);
+  border-radius: 5px;
+  display: flex;
+  min-width: 268px;
+  padding: 0 0.3px;
+}
+
+.action-text-1 {
+  height: 55px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 267px;
+}
+
+.section-3 {
+  background-color: var(--eerie-black);
+  display: flex;
+  flex-direction: column;
+  height: 1194px;
+  width: 834px;
+}
+
+.section-two-title-1 {
+  align-self: center;
+  height: 46px;
+  margin-top: 203px;
+  width: 635.5px;
+}
+
+.section-two-text-1 {
+  flex: 1;
+  letter-spacing: 0;
+  margin-left: 11.27%;
+  margin-right: 11.27%;
+  margin-top: 156px;
+  max-height: 519px;
+  text-align: center;
+}
+
+.section-three-1 {
+  background-color: var(--eerie-black);
+  display: flex;
+  height: 377px;
+  justify-content: center;
+  width: 834px;
+}
+
+.section-three-title-1 {
+  height: 156.5px;
+  margin-top: 110.2px;
+  width: 587.5px;
+}
+
+.section-4 {
+  flex: 1;
+  letter-spacing: 0;
+  margin-left: 9.71%;
+  margin-right: 9.71%;
+  margin-top: 135px;
+  max-height: 182px;
+}
+
+.section-5 {
+  flex: 1;
+  letter-spacing: 0;
+  margin-left: 9.71%;
+  margin-right: 9.71%;
+  margin-top: 88px;
+  max-height: 654px;
+}
+
+.section-five-title-1 {
+  flex: 1;
+  letter-spacing: 0;
+  margin-left: 9.71%;
+  margin-right: 9.71%;
+  margin-top: 135px;
+  max-height: 182px;
+  text-align: right;
+}
+
+.section-five-text-1 {
+  flex: 1;
+  letter-spacing: 0;
+  margin-left: 9.71%;
+  margin-right: 9.71%;
+  margin-top: 88px;
+  max-height: 654px;
+  text-align: right;
+}
+
+.section-seven-title-1 {
+  align-self: center;
+  height: 46px;
+  margin-left: 1px;
+  margin-top: 203px;
+  width: 659.5px;
+}
+
+.section-seven-text-1 {
+  flex: 1;
+  letter-spacing: 0;
+  margin-left: 10.43%;
+  margin-right: 9.59%;
+  margin-top: 156px;
+  max-height: 317px;
+  text-align: center;
+}
+
+.span1-1 {
+  text-decoration: underline;
+}
+
+.footer-1 {
+  flex: 1;
+  margin-top: 237px;
+  max-height: 235px;
+  position: relative;
+}
+
+.overlap-group2-1 {
+  height: 235px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 834px;
+}
+
+.footer-nav-1 {
+  height: 235px;
+  left: 644px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  width: 143px;
+}
+
+.copyright-notice-1 {
+  height: 68px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 167px;
+  width: 834px;
+}
+
+.overlap-group-3 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 63px;
+  left: 373px;
+  min-width: 228px;
+  padding: 0 24.8px;
+  position: absolute;
+  top: 86px;
+}
+
+.subscribe-button-text-1 {
+  height: 18px;
+  width: 178px;
+}
+
+.overlap-group1-1 {
+  align-items: center;
+  background-size: 100% 100%;
+  display: flex;
+  height: 59px;
+  justify-content: flex-end;
+  left: 45px;
+  min-width: 321px;
+  padding: 0 1.7px;
+  position: absolute;
+  top: 88px;
+}
+
+.subscribe-input-text-1 {
+  color: var(--silver);
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  height: 55px;
+  letter-spacing: 0;
+  width: 306px;
+}
+
+.logo-dark-mode-3 {
+  height: 31px;
+  left: 47px;
+  object-fit: cover;
+  position: absolute;
+  top: 22px;
+  width: 96px;
+}
+

@@ -1,0 +1,33 @@
+.mobile-overlay {
+  background-color: #1e1f23;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 155px;
+  min-width: 135px;
+  width: 100%;
+}
+
+.overlay-close {
+  height: 25px;
+  margin-left: 84px;
+  margin-top: 15.5px;
+  width: 24px;
+}
+
+.nav-light-mode-2 {
+  height: 24px;
+  margin-left: 84px;
+  margin-top: 4.5px;
+  width: 24px;
+}
+
+.overlay-nav {
+  align-self: flex-end;
+  height: 79px;
+  letter-spacing: 0;
+  margin-right: 27px;
+  text-align: right;
+  width: 108px;
+}
+

@@ -1,0 +1,50 @@
+.nav-menu,
+.nav-menu-1 {
+  align-items: center;
+  display: flex;
+  margin-right: 26.9px;
+  min-width: 356px;
+}
+
+.nav-docs,
+.nav-docs-1 {
+  height: 65px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 41px;
+}
+
+.nav-twitter,
+.nav-twitter-1 {
+  height: 65px;
+  letter-spacing: 0;
+  margin-left: 25px;
+  text-align: center;
+  width: 62px;
+}
+
+.nav-discord,
+.nav-discord-1 {
+  height: 65px;
+  letter-spacing: 0;
+  margin-left: 25px;
+  text-align: center;
+  width: 63px;
+}
+
+.nav-contact,
+.nav-contact-1 {
+  height: 65px;
+  letter-spacing: 0;
+  margin-left: 25px;
+  text-align: center;
+  width: 66px;
+}
+
+.nav-light-mode,
+.nav-light-mode-1 {
+  height: 24px;
+  margin-left: 25px;
+  width: 24px;
+}
+
