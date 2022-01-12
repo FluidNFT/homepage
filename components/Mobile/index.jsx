@@ -235,9 +235,13 @@ function Mobile(props) {
               </div>
               <div className="flex-row">
                 <img className="logo-dark-mode-5" src={logoLightMode2} />
-                <div className="footer-nav-2 valign-text-middle oxanium-medium-black-24px">Docs</div>
-                <div className="footer-nav-2 valign-text-middle oxanium-medium-black-24px">Twitter</div>
-                <div className="footer-nav-2 valign-text-middle oxanium-medium-black-24px">Discord</div>
+                <div className="footer-nav-2 valign-text-middle oxanium-medium-black-24px">
+                  <a className="footer-nav-light">Docs</a>
+                  <br/>
+                  <a className="footer-nav-light">Twitter</a>
+                  <br/>
+                  <a className="footer-nav-light">Discord</a>
+                </div>
               </div>
               <p className="copyright-notice-2-light valign-text-middle">{copyrightNotice}</p>
             </div>

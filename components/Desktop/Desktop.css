@@ -12,8 +12,15 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  /* max-height: 754px; */
-  /* min-height: 754px; */
+  min-height: 100vh;
+}
+
+.section-one-light {
+  align-items: flex-start;
+  background-color: #EFF1F0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   min-height: 100vh;
 }
 
@@ -99,6 +106,22 @@
   z-index: 200;
 }
 
+.overlap-group-light {
+  align-items: flex-start;
+  background-color: #AA3C73;
+  border-radius: 5px;
+  display: flex;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 268px;
+  padding: 0 0.3px;
+  position: relative;
+  top: 50px;
+  z-index: 200;
+}
+
+
 .action-text {
   height: 55px;
   letter-spacing: 0;
@@ -111,7 +134,14 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  /* max-height: 754px; */
+  height: 100%
+}
+
+.section-light {
+  background-color: #EFF1F0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   height: 100%
 }
 
@@ -135,6 +165,14 @@
 
 .section-three {
   background-color: var(--eerie-black);
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  max-height: 238px;
+}
+
+.section-three-light {
+  background-color: #EFF1F0;
   display: flex;
   flex: 1;
   justify-content: center;
@@ -192,8 +230,16 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  /* max-height: 754px; */
-  /* min-height: 754px; */
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.section-seven-light {
+  align-items: flex-start;
+  background-color: #EFF1F0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   min-height: 100vh;
   min-width: 100%;
 }
@@ -244,6 +290,17 @@
   top: 167px;
   width: 100%;
   background: #191b1f;
+}
+
+.copyright-notice-light {
+  height: 68px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 167px;
+  width: 100%;
+  background: #EFF1F0;
 }
 
 .footer-nav {
@@ -300,4 +357,23 @@
   position: absolute;
   top: 9px;
   width: 96px;
+}
+
+.footer-nav-dark {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.footer-nav-dark:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.footer-nav-light {
+  color: #191b1f;
+}
+
+.footer-nav-light:hover {
+  color: #5c6372;
+  cursor: pointer;
 }

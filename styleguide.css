@@ -216,6 +216,14 @@
   font-weight: 500;
 }
 
+.oxanium-medium-pink-36px {
+  color: #AA3C73;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
 .oxanium-medium-silver-30px {
   color: var(--silver);
   font-family: var(--font-family-oxanium);

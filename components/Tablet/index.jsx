@@ -187,7 +187,7 @@ function Tablet(props) {
             <div className="section-seven-text-1 valign-text-middle oxanium-medium-black-36px-2">
               <span>
                 <span className="oxanium-medium-black-36px">{spanText7}</span>
-                <span className="span1-1 oxanium-medium-heat-wave-36px">{spanText8}</span>
+                <span className="span1-1 oxanium-medium-pink-36px">{spanText8}</span>
                 <span className="oxanium-medium-black-36px">{spanText9}</span>
               </span>
             </div>
