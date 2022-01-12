@@ -88,6 +88,10 @@
   position: relative;
 }
 
+.overlap-group-2:hover {
+  background-color: #ff821b;
+}
+
 .overlap-group-2-light {
   align-items: flex-start;
   background-color: #AA3C73;
@@ -99,6 +103,10 @@
   margin-right: auto;
   margin-top: 30px;
   position: relative;
+}
+
+.overlap-group-2-light:hover {
+  background-color: #bd4380;
 }
 
 .action-text-1 {
@@ -329,13 +337,14 @@
 }
 
 .subscribe-input-text-1 {
-  color: var(--silver);
+  color: #191b1f;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-s);
   font-weight: 500;
   height: 55px;
   letter-spacing: 0;
   width: 306px;
+  margin-right: 5px;
 }
 
 .logo-dark-mode-3 {
@@ -360,5 +369,10 @@
 
 .footer-nav-light:hover {
   color: #5c6372;
+  cursor: pointer;
+}
+
+.overlap-group-3:hover, .overlap-group-3:active {
+  background-color: #191b1f;
   cursor: pointer;
 }

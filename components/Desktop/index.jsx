@@ -115,14 +115,16 @@ function Desktop(props) {
                 <p className="footer-nav-dark"><a>Discord</a></p>
               </div>
             </div>
-            <div className="overlap-group-1">
-              <img className="subscribe-button-text" src={subscribeButtonText} />
-            </div>
-            <div className="overlap-group1" style={{ backgroundImage: `url(${overlapGroup1})` }}>
-              <div className="subscribe-input-text valign-text-middle oxanium-medium-silver-30px">
-                {subscribeInputText}
+            <form className="form user-signup__form" action="https://xyz.us20.list-manage.com/subscribe/post" method="POST">
+              <input type="hidden" name="u" value="3597a5e9af0d6962274f0242d" />
+              <input type="hidden" name="id" value="24d009fd28" />
+              <div className="overlap-group-1">
+                <button type="submit" className="submit user-signup__submit submit-button"><img className="subscribe-button-text" src={subscribeButtonText} /></button>
               </div>
-            </div>
+              <div className="overlap-group1" style={{ backgroundImage: `url(${overlapGroup1})` }}>
+                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" className="form-control form-control__input user-signup__email subscribe-input-text valign-text-middle oxanium-medium-eerie-30px" placeholder={subscribeInputText} aria-required="true" required="required" />
+              </div>
+            </form>
             <img className="logo-dark-mode-1" src={logoDarkMode2} />
           </div>
         </div>
@@ -206,14 +208,16 @@ function Desktop(props) {
                 <p className="footer-nav-light"><a>Discord</a></p>
               </div>
             </div>
-            <div className="overlap-group-1">
-              <img className="subscribe-button-text" src={subscribeButtonText} />
-            </div>
-            <div className="overlap-group1" style={{ backgroundImage: `url(${overlapGroup1})` }}>
-              <div className="subscribe-input-text valign-text-middle oxanium-medium-silver-30px">
-                {subscribeInputText}
+            <form className="form user-signup__form" action="https://xyz.us20.list-manage.com/subscribe/post" method="POST">
+              <input type="hidden" name="u" value="3597a5e9af0d6962274f0242d" />
+              <input type="hidden" name="id" value="24d009fd28" />
+              <div className="overlap-group-1">
+                <button type="submit" className="submit user-signup__submit submit-button"><img className="subscribe-button-text" src={subscribeButtonText} /></button>
               </div>
-            </div>
+              <div className="overlap-group1" style={{ backgroundImage: `url(${overlapGroup1})` }}>
+                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" className="form-control form-control__input user-signup__email subscribe-input-text valign-text-middle oxanium-medium-eerie-30px" placeholder={subscribeInputText} aria-required="true" required="required" />
+              </div>
+            </form>
             <img className="logo-dark-mode-1" src={logoLightMode} />
           </div>
         </div>

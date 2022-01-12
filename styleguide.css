@@ -232,6 +232,14 @@
   font-weight: 500;
 }
 
+.oxanium-medium-eerie-30px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-oxanium);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+
 .oxanium-medium-celeste-28px {
   color: var(--celeste);
   font-family: var(--font-family-oxanium);

@@ -202,6 +202,10 @@
   top: 160px;
 }
 
+.overlap-group-4:hover {
+  background-color: #ff821b;
+}
+
 .overlap-group-4-light {
   align-items: flex-start;
   background-color: #AA3C73;
@@ -213,6 +217,10 @@
   margin-left: 16px;
   margin-right: 16px;
   top: 160px;
+}
+
+.overlap-group-4-light:hover {
+  background-color: #bd4380;
 }
 
 .action-text-2 {
@@ -426,9 +434,9 @@
 }
 
 .subscribe-input-text-2 {
-  height: 55px;
   letter-spacing: 0;
-  width: 312px;
+  height: 50px;
+  width: 100%;
 }
 
 .overlap-group1-2 {
@@ -514,5 +522,14 @@
 
 .footer-nav-light:hover {
   color: #5c6372;
+  cursor: pointer;
+}
+
+.form {
+  width: 100%;
+}
+
+.overlap-group1-2:hover, .overlap-group-3:active {
+  background-color: #191b1f;
   cursor: pointer;
 }
