@@ -48,3 +48,12 @@
   width: 24px;
 }
 
+.nav-menu-dark:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.nav-menu-light:hover {
+  color: #5c6372;
+  cursor: pointer;
+}

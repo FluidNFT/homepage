@@ -2,13 +2,22 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  min-height: 6436px;
+  min-height: 6387px;
   width: 100%;
 }
 
 .section-one-1 {
   align-items: center;
   background-color: var(--eerie-black);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.section-one-1-light {
+  align-items: center;
+  background-color: #EFF1F0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -79,6 +88,19 @@
   position: relative;
 }
 
+.overlap-group-2-light {
+  align-items: flex-start;
+  background-color: #AA3C73;
+  border-radius: 5px;
+  display: flex;
+  width: 268px;
+  padding: 0 0.3px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  position: relative;
+}
+
 .action-text-1 {
   height: 55px;
   letter-spacing: 0;
@@ -88,6 +110,14 @@
 
 .section-3 {
   background-color: var(--eerie-black);
+  display: flex;
+  flex-direction: column;
+  height: 994px;
+  width: 100%;
+}
+
+.section-3-light {
+  background-color: #EFF1F0;
   display: flex;
   flex-direction: column;
   height: 994px;
@@ -113,6 +143,14 @@
 
 .section-three-1 {
   background-color: var(--eerie-black);
+  display: flex;
+  height: 377px;
+  justify-content: center;
+  width: 100%;
+}
+
+.section-three-1-light {
+  background-color: #EFF1F0;
   display: flex;
   height: 377px;
   justify-content: center;
@@ -171,6 +209,14 @@
   width: 100%;
 }
 
+.section-seven-3-light {
+  background-color: #EFF1F0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
 .section-seven-title-1 {
   align-self: center;
   height: 46px;
@@ -198,6 +244,15 @@
   max-height: 235px;
   position: relative;
   background: #191b1f;
+  min-width: 100%;
+}
+
+.footer-1-light {
+  flex: 1;
+  margin-top: 237px;
+  max-height: 235px;
+  position: relative;
+  background: #EFF1F0;
   min-width: 100%;
 }
 
@@ -229,6 +284,17 @@
   top: 167px;
   width: 100%;
   background: #191b1f;
+}
+
+.copyright-notice-1-light {
+  height: 68px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 167px;
+  width: 100%;
+  background: #EFF1F0;
 }
 
 .overlap-group-3 {
@@ -281,3 +347,18 @@
   width: 96px;
 }
 
+
+.footer-nav-dark {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.footer-nav-dark:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.footer-nav-light:hover {
+  color: #5c6372;
+  cursor: pointer;
+}

@@ -42,6 +42,14 @@
   font-weight: 500;
 }
 
+.oxanium-medium-eerie-18px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
 .oxanium-medium-white-24px {
   color: var(--white);
   font-family: var(--font-family-oxanium);
@@ -138,8 +146,24 @@
   font-weight: 500;
 }
 
+.oxanium-medium-eerie-32px {
+  color: #191B1F;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
 .oxanium-bold-white-56px {
   color: var(--white);
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.oxanium-bold-black-56px {
+  color: var(--black);
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xxl);
   font-style: normal;

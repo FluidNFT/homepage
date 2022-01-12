@@ -14,47 +14,19 @@ function App() {
 
   const [mode, setMode] = useState("dark");
 
-  mobileData['mode'] = mode;
-  mobileData['setMode'] = setMode;
-
   if (isMobile) {
+    mobileData['mode'] = mode;
+    mobileData['setMode'] = setMode;
     return <Mobile {...mobileData} />
   } else if (isTablet) {
+    tabletData['mode'] = mode;
+    tabletData['setMode'] = setMode;
     return <Tablet {...tabletData} />
   } else {
+    desktopData['mode'] = mode;
+    desktopData['setMode'] = setMode;
     return <Desktop {...desktopData} />
   };
-
-  // return (
-  //   <Router>
-  //     <Switch>
-  //       <Route path="/:path(|desktop)">
-  //         <Desktop {...desktopData} />
-  //       </Route>
-  //       <Route path="/tablet">
-  //         <Tablet {...tabletData} />
-  //       </Route>
-  //       <Route path="/mobile-overlay">
-  //         <MobileOverlay
-  //           overlayClose="/img/frame@2x.png"
-  //           navLightMode="/img/experimental---sun-3@2x.png"
-  //           overlayNav={
-  //             <>
-  //               Docs
-  //               <br />
-  //               Twitter
-  //               <br />
-  //               Discord
-  //             </>
-  //           }
-  //         />
-  //       </Route>
-  //       <Route path="/mobile">
-  //         <Mobile {...mobileData} />
-  //       </Route>
-  //     </Switch>
-  //   </Router>
-  // );
 }
 
 export default App;
