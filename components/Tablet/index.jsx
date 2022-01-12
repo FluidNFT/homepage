@@ -110,9 +110,9 @@ function Tablet(props) {
             <div className="footer-1">
               <div className="overlap-group2-1">
                 <div className="footer-nav-1 valign-text-middle oxanium-medium-celeste-28px">
-                  <p className="footer-nav-dark"><a>Docs</a></p>
-                  <p className="footer-nav-dark"><a>Twitter</a></p>
-                  <p className="footer-nav-dark"><a>Discord</a></p>
+                  <p className="footer-nav-dark"><a href="https://niftrr.gitbook.io/fluidnft/" target="_blank" className="footer-nav-dark">Docs</a></p>
+                  <p className="footer-nav-dark"><a href="https://twitter.com/FluidNFT_" target="_blank" className="footer-nav-dark">Twitter</a></p>
+                  <p className="footer-nav-dark"><a href="https://discord.gg/sBk2E7m5" target="_blank" className="footer-nav-dark">Discord</a></p>
                 </div>
                 <div className="copyright-notice-1 valign-text-middle oxanium-medium-celeste-18px">{copyrightNotice}</div>
               </div>
@@ -204,9 +204,9 @@ function Tablet(props) {
             <div className="footer-1-light">
               <div className="overlap-group2-1">
                 <div className="footer-nav-1 valign-text-middle oxanium-medium-black-28px">
-                  <p className="footer-nav-light"><a>Docs</a></p>
-                  <p className="footer-nav-light"><a>Twitter</a></p>
-                  <p className="footer-nav-light"><a>Discord</a></p>
+                  <p className="footer-nav-light"><a href="https://niftrr.gitbook.io/fluidnft/" target="_blank" className="footer-nav-light">Docs</a></p>
+                  <p className="footer-nav-light"><a href="https://twitter.com/FluidNFT_" target="_blank" className="footer-nav-light">Twitter</a></p>
+                  <p className="footer-nav-light"><a href="https://discord.gg/sBk2E7m5" target="_blank" className="footer-nav-light">Discord</a></p>
                 </div>
                 <div className="copyright-notice-1-light valign-text-middle oxanium-medium-eerie-18px">{copyrightNotice}</div>
               </div>

@@ -8,7 +8,7 @@
 
 .section-one-1 {
   align-items: center;
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -77,7 +77,7 @@
 
 .overlap-group-2 {
   align-items: flex-start;
-  background-color: var(--heat-wave);
+  background-color: #ff7401;
   border-radius: 5px;
   display: flex;
   width: 268px;
@@ -117,7 +117,7 @@
 }
 
 .section-3 {
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   flex-direction: column;
   height: 994px;
@@ -150,7 +150,7 @@
 }
 
 .section-three-1 {
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   height: 377px;
   justify-content: center;
@@ -210,7 +210,7 @@
 }
 
 .section-seven-3 {
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -307,7 +307,7 @@
 
 .overlap-group-3 {
   align-items: center;
-  background-color: var(--white);
+  background-color: #ffffff;
   border-radius: 5px;
   display: flex;
   height: 63px;
@@ -358,13 +358,16 @@
 
 
 .footer-nav-dark {
-  margin-top: 2px;
-  margin-bottom: 2px;
+  color: #cbcbcb;
 }
 
 .footer-nav-dark:hover {
   color: white;
   cursor: pointer;
+}
+
+.footer-nav-light {
+  color: #191b1f;
 }
 
 .footer-nav-light:hover {

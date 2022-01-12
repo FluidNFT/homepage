@@ -11,13 +11,13 @@ function NavMenu(props) {
     return (
       <div className="nav-menu oxanium-medium-celeste-18px">
         <div className="nav-menu-dark nav-docs valign-text-middle">
-        <a href="#contact" className="nav-menu-dark">Docs</a>
+        <a href="https://niftrr.gitbook.io/fluidnft/" target="_blank" className="nav-menu-dark">Docs</a>
         </div>
         <div className="nav-menu-dark nav-twitter valign-text-middle">
-        <a href="#contact" className="nav-menu-dark">Twitter</a>
+        <a href="https://twitter.com/FluidNFT_" target="_blank" className="nav-menu-dark">Twitter</a>
         </div>
         <div className="nav-menu-dark nav-discord valign-text-middle">
-          <a href="#contact" className="nav-menu-dark">Discord</a>
+          <a href="https://discord.gg/sBk2E7m5" target="_blank" className="nav-menu-dark">Discord</a>
         </div>
         <div className="nav-menu-dark nav-contact valign-text-middle">
           <a href="#contact" className="nav-menu-dark">Contact</a>
@@ -29,13 +29,13 @@ function NavMenu(props) {
     return (
       <div className="nav-menu oxanium-medium-eerie-18px">
         <div className="nav-menu-light nav-docs valign-text-middle">
-        <a href="#contact_" className="nav-menu-light">Docs</a>
+        <a href="https://niftrr.gitbook.io/fluidnft/" target="_blank" className="nav-menu-light">Docs</a>
         </div>
         <div className="nav-menu-light nav-twitter valign-text-middle">
-        <a href="#contact_" className="nav-menu-light">Twitter</a>
+        <a href="https://twitter.com/FluidNFT_" target="_blank" className="nav-menu-light">Twitter</a>
         </div>
         <div className="nav-menu-light nav-discord valign-text-middle">
-          <a href="#contact_" className="nav-menu-light">Discord</a>
+          <a href="https://discord.gg/sBk2E7m5" target="_blank" className="nav-menu-light">Discord</a>
         </div>
         <div className="nav-menu-light nav-contact valign-text-middle">
           <a href="#contact_" className="nav-menu-light">Contact</a>

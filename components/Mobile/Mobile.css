@@ -25,7 +25,7 @@
 }
 
 .section-two {
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   flex-direction: column;
   height: 812px;
@@ -65,7 +65,7 @@
 
 .section-one-2 {
   align-items: center;
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   flex-direction: column;
   left: 0;
@@ -119,7 +119,7 @@
 }
 
 .section-one-title-2 {
-  color: var(--white);
+  color: #ffffff;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-weight: 700;
@@ -131,7 +131,7 @@
 }
 
 .section-one-title-2-light {
-  color: #000;
+  color: #000000;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-weight: 700;
@@ -191,7 +191,7 @@
 
 .overlap-group-4 {
   align-items: flex-start;
-  background-color: var(--heat-wave);
+  background-color: #ff7401;
   border-radius: 5px;
   display: flex;
   height: 55px;
@@ -224,7 +224,7 @@
 }
 
 .action-text-2 {
-  color: var(--white);
+  color: #ffffff;
   font-family: var(--font-family-oxanium);
   font-size: 30px;
   font-weight: 500;
@@ -237,7 +237,7 @@
 }
 
 .section-three-2 {
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   height: 256px;
   justify-content: center;
@@ -259,7 +259,7 @@
 }
 
 .section-6 {
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   flex-direction: column;
   height: 1100px;
@@ -286,7 +286,7 @@
 }
 
 .span1-2 {
-  color: var(--electric-violet);
+  color: #5001eb;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-weight: 700;
@@ -312,14 +312,14 @@
 }
 
 .span0 {
-  color: var(--heat-wave);
+  color: #ff7401;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-m);
   font-weight: 400;
 }
 
 .span1-3 {
-  color: var(--heat-wave);
+  color: #ff7401;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-weight: 700;
@@ -336,21 +336,21 @@
 }
 
 .span0-1 {
-  color: var(--royal-heath);
+  color: #aa3c73;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-m);
   font-weight: 400;
 }
 
 .span1-4 {
-  color: var(--royal-heath);
+  color: #aa3c73;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-weight: 700;
 }
 
 .section-seven {
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   flex-direction: column;
   height: 812px;
@@ -387,7 +387,7 @@
 }
 
 .span1-5 {
-  color: var(--heat-wave);
+  color: #ff7401;
   text-decoration: underline;
 }
 
@@ -441,7 +441,7 @@
 
 .overlap-group1-2 {
   align-items: center;
-  background-color: var(--white);
+  background-color: #ffffff;
   border-radius: 5px;
   display: flex;
   height: 55px;
@@ -511,13 +511,16 @@
 }
 
 .footer-nav-dark {
-  margin-top: 2px;
-  margin-bottom: 2px;
+  color: #cbcbcb;
 }
 
 .footer-nav-dark:hover {
   color: white;
   cursor: pointer;
+}
+
+.footer-nav-light {
+  color: #191b1f;
 }
 
 .footer-nav-light:hover {

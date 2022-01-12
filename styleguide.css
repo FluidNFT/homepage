@@ -19,7 +19,7 @@
   --font-family-oxanium: "Oxanium", Helvetica;
 }
 .oxanium-medium-white-32px {
-  color: var(--white);
+  color: #ffffff;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -27,7 +27,7 @@
 }
 
 .oxanium-medium-black-32px {
-  color: #000;
+  color: #000000;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -43,7 +43,7 @@
 }
 
 .oxanium-medium-eerie-18px {
-  color: var(--eerie-black);
+  color: #191b1f;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xs);
   font-style: normal;
@@ -51,7 +51,7 @@
 }
 
 .oxanium-medium-white-24px {
-  color: var(--white);
+  color: #ffffff;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-s);
   font-style: normal;
@@ -67,7 +67,7 @@
 }
 
 .oxanium-medium-white-36px {
-  color: var(--white);
+  color: #ffffff;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -75,7 +75,7 @@
 }
 
 .oxanium-medium-black-24px {
-  color: var(--black);
+  color: #000000;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-s);
   font-style: normal;
@@ -83,7 +83,7 @@
 }
 
 .oxanium-medium-black-36px {
-  color: var(--black);
+  color: #000000;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -91,7 +91,7 @@
 }
 
 .oxanium-normal-electric-violet-36px {
-  color: var(--electric-violet);
+  color: #5001eb;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -99,7 +99,7 @@
 }
 
 .oxanium-normal-heat-wave-36px {
-  color: var(--heat-wave);
+  color: #ff7401;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -107,7 +107,7 @@
 }
 
 .oxanium-normal-royal-heath-36px {
-  color: var(--royal-heath);
+  color: #aa3c73;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -115,7 +115,7 @@
 }
 
 .oxanium-normal-electric-violet-32px {
-  color: var(--electric-violet);
+  color: #5001eb;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -123,7 +123,7 @@
 }
 
 .oxanium-medium-white-18px {
-  color: var(--white);
+  color: #ffffff;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xs);
   font-style: normal;
@@ -131,7 +131,7 @@
 }
 
 .oxanium-medium-black-18px {
-  color: #000;
+  color: #000000;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xs);
   font-style: normal;
@@ -155,7 +155,7 @@
 }
 
 .oxanium-bold-white-56px {
-  color: var(--white);
+  color: #ffffff;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xxl);
   font-style: normal;
@@ -163,7 +163,7 @@
 }
 
 .oxanium-bold-black-56px {
-  color: var(--black);
+  color: #000000;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xxl);
   font-style: normal;
@@ -171,7 +171,7 @@
 }
 
 .oxanium-bold-electric-violet-48px {
-  color: var(--electric-violet);
+  color: #5001eb;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xl);
   font-style: normal;
@@ -179,7 +179,7 @@
 }
 
 .oxanium-bold-heat-wave-48px {
-  color: var(--heat-wave);
+  color: #ff7401;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xl);
   font-style: normal;
@@ -187,7 +187,7 @@
 }
 
 .oxanium-bold-royal-heath-48px {
-  color: var(--royal-heath);
+  color: #aa3c73;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xl);
   font-style: normal;
@@ -209,7 +209,7 @@
 }
 
 .oxanium-medium-heat-wave-36px {
-  color: var(--heat-wave);
+  color: #ff7401;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -225,7 +225,7 @@
 }
 
 .oxanium-medium-silver-30px {
-  color: var(--silver);
+  color: #bcbcbc;
   font-family: var(--font-family-oxanium);
   font-size: 30px;
   font-style: normal;
@@ -233,7 +233,7 @@
 }
 
 .oxanium-medium-eerie-30px {
-  color: var(--eerie-black);
+  color: #191b1f;
   font-family: var(--font-family-oxanium);
   font-size: 30px;
   font-style: normal;
@@ -249,7 +249,7 @@
 }
 
 .oxanium-medium-black-28px {
-  color: var(--black);
+  color: #000000;
   font-family: var(--font-family-oxanium);
   font-size: 28px;
   font-style: normal;

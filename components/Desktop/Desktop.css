@@ -8,7 +8,7 @@
 
 .section-one {
   align-items: flex-start;
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -93,7 +93,7 @@
 
 .overlap-group {
   align-items: flex-start;
-  background-color: var(--heat-wave);
+  background-color: #ff7401;
   border-radius: 5px;
   display: flex;
   height: 55px;
@@ -137,7 +137,7 @@
 }
 
 .section {
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -171,7 +171,7 @@
 }
 
 .section-three {
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   flex: 1;
   justify-content: center;
@@ -233,7 +233,7 @@
 
 .section-seven {
   align-items: flex-start;
-  background-color: var(--eerie-black);
+  background-color: #191b1f;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -322,7 +322,7 @@
 
 .overlap-group-1 {
   align-items: center;
-  background-color: var(--white);
+  background-color: #ffffff;
   border-radius: 5px;
   display: flex;
   height: 63px;
@@ -376,8 +376,7 @@
 }
 
 .footer-nav-dark {
-  margin-top: 2px;
-  margin-bottom: 2px;
+  color: #cbcbcb;
 }
 
 .footer-nav-dark:hover {
