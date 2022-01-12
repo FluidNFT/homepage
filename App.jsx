@@ -10,8 +10,6 @@ import Mobile from "./components/Mobile";
 function App() {
   const isMobile = useMediaQuery({ query: '(max-width: 775px)' })
   const isTablet = useMediaQuery({ query: '(max-width: 1100px)' })
-
-
   const [mode, setMode] = useState("dark");
 
   if (isMobile) {
