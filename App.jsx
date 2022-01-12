@@ -1,5 +1,5 @@
 import "./App.css";
-import React from "react";
+import React, { useState } from "react";
 import { useMediaQuery } from 'react-responsive'
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 import Desktop from "./components/Desktop";
@@ -11,6 +11,11 @@ function App() {
   const isMobile = useMediaQuery({ query: '(max-width: 775px)' })
   const isTablet = useMediaQuery({ query: '(max-width: 1100px)' })
 
+
+  const [mode, setMode] = useState("dark");
+
+  mobileData['mode'] = mode;
+  mobileData['setMode'] = setMode;
 
   if (isMobile) {
     return <Mobile {...mobileData} />
@@ -70,7 +75,7 @@ const desktopData = {
     sectionFiveText: <>Deposit assets to a lending pool and immediately start earning interest. The amount of interest is set by the NFT project borrow rate and lending pool utilization ratio.<br /><br />For example, if BAYC has a borrow rate of 20% APR and 80% of the BAYC-WETH pool is being utilized for lending then the interest rate on deposits will be 16% APY.<br /><br />Positions are tokenized. Interest bearning tokens are minted on deposit and these can be stored, transfered and traded at will.</>,
     spanText5: <>Liquidators<br /></>,
     spanText6: "Buy NFTs below market price",
-    sectionSixText: <>Liquidators buyout expired or under-collaterlized loan positions to reteive the underlying NFT at a dicounted price.<br /><br />For example, if the collateralization ratio of a loan falls below the minimum threshold then a liquidator will be able to trigger a timed auction with an intial bid to cover the outstanding debt.<br /><br />As a protection from market risk, borrowers are still able to retrieve their NFT for the same amount plus a fee to the liquidator. If the auction completes and the liquidator is outbid they still earn a fee.</>,
+    sectionSixText: <>Liquidators buyout expired or under-collaterlized loan positions to reteive the underlying NFT at a discounted price.<br /><br />For example, if the collateralization ratio of a loan falls below the minimum threshold then a liquidator will be able to trigger a timed auction with an intial bid to cover the outstanding debt.<br /><br />As a protection from market risk, borrowers are still able to retrieve their NFT for the same amount plus a fee to the liquidator. If the auction completes and the liquidator is outbid they still earn a fee.</>,
     sectionSevenTitle: "/img/working-with-the-community-1@2x.png",
     spanText7: "We partner with NFT Creators to onboard collections. Contact us to ",
     spanText8: "partner@fluid.nft",
@@ -81,6 +86,11 @@ const desktopData = {
     overlapGroup1: "/img/item-container-select-4@2x.png",
     subscribeInputText: "Email",
     logoDarkMode2: "/img/fluidlogonegativesmall@2x.png",
+    logoLightMode: "/img/fluidlogopositivesmall@2x.png",
+    logoLightMode2: "/img/fluidlogopositivesmall@2x.png",
+    overlayClose: "/img/frame@2x.png",
+    navLightMode: "/img/experimental---sun-3@2x.png",
+    navDarkMode: "/img/experimental---moon@2x.png",
 };
 
 const tabletData = {
@@ -100,7 +110,7 @@ const tabletData = {
     sectionFiveText: <>Deposit assets to a lending pool and immediately start earning interest. The amount of interest is set by the NFT project borrow rate and lending pool utilization ratio.<br /><br />For example, if BAYC has a borrow rate of 20% APR and 80% of the BAYC-WETH pool is being utilized for lending then the interest rate on deposits will be 16% APY.<br /><br />Positions are tokenized. Interest bearning tokens are minted on deposit and these can be stored, transfered and traded at will.</>,
     spanText5: <>Liquidators<br /></>,
     spanText6: "Buy NFTs below market price",
-    sectionSixText: <>Liquidators buyout expired or under-collaterlized loan positions to reteive the underlying NFT at a dicounted price.<br /><br />For example, if the collateralization ratio of a loan falls below the minimum threshold then a liquidator will be able to trigger a timed auction with an intial bid to cover the outstanding debt.<br /><br />As a protection from market risk, borrowers are still able to retrieve their NFT for the same amount plus a fee to the liquidator. If the auction completes and the liquidator is outbid they still earn a fee.</>,
+    sectionSixText: <>Liquidators buyout expired or under-collaterlized loan positions to reteive the underlying NFT at a discounted price.<br /><br />For example, if the collateralization ratio of a loan falls below the minimum threshold then a liquidator will be able to trigger a timed auction with an intial bid to cover the outstanding debt.<br /><br />As a protection from market risk, borrowers are still able to retrieve their NFT for the same amount plus a fee to the liquidator. If the auction completes and the liquidator is outbid they still earn a fee.</>,
     sectionSevenTitle: "/img/working-with-the-community@2x.png",
     spanText7: "We partner with NFT Creators to onboard collections. Contact us to ",
     spanText8: "partner@fluid.nft",
@@ -111,6 +121,11 @@ const tabletData = {
     overlapGroup1: "/img/item-container-select-3@2x.png",
     subscribeInputText: "Email",
     logoDarkMode2: "/img/fluidlogonegativesmall@2x.png",
+    logoLightMode: "/img/fluidlogopositivesmall@2x.png",
+    logoLightMode2: "/img/fluidlogopositivesmall@2x.png",
+    overlayClose: "/img/frame@2x.png",
+    navLightMode: "/img/experimental---sun-3@2x.png",
+    navDarkMode: "/img/experimental---moon@2x.png",
 };
 
 const mobileData = {
@@ -131,7 +146,7 @@ const mobileData = {
     sectionFiveText: <>Deposit assets to a lending pool and immediately start earning interest. The amount of interest is set by the NFT project borrow rate and lending pool utilization ratio.<br /><br />For example, if BAYC has a borrow rate of 20% APR and 80% of the BAYC-WETH pool is being utilized for lending then the interest rate on deposits will be 16% APY.<br /><br />Positions are tokenized. Interest bearning tokens are minted on deposit and these can be stored, transfered and traded at will.</>,
     spanText5: <>Liquidators<br /></>,
     spanText6: "Buy NFTs below market price",
-    sectionSixText: <>Liquidators buyout expired or under-collaterlized loan positions to reteive the underlying NFT at a dicounted price.<br /><br />For example, if the collateralization ratio of a loan falls below the minimum threshold then a liquidator will be able to trigger a timed auction with an intial bid to cover the outstanding debt.<br /><br />As a protection from market risk, borrowers are still able to retrieve their NFT for the same amount plus a fee to the liquidator. If the auction completes and the liquidator is outbid they still earn a fee.</>,
+    sectionSixText: <>Liquidators buyout expired or under-collaterlized loan positions to reteive the underlying NFT at a discounted price.<br /><br />For example, if the collateralization ratio of a loan falls below the minimum threshold then a liquidator will be able to trigger a timed auction with an intial bid to cover the outstanding debt.<br /><br />As a protection from market risk, borrowers are still able to retrieve their NFT for the same amount plus a fee to the liquidator. If the auction completes and the liquidator is outbid they still earn a fee.</>,
     sectionSevenTitle: "/img/working-with-the-community-3@2x.png",
     spanText7: "We partner with NFT Creators to onboard collections. Contact us to ",
     spanText8: "partner@fluid.nft",
@@ -142,5 +157,11 @@ const mobileData = {
     logoDarkMode2: "/img/fluidlogonegativesmall@2x.png",
     footerNav: <>Docs<br />Twitter<br />Discord</>,
     copyrightNotice: "Copyright © 2022 Fluid NFT Labs",
+    logoLightMode: "/img/fluidlogopositivesmall@2x.png",
+    logoLightMode2: "/img/fluidlogopositivesmall@2x.png",
+    overlayClose: "/img/frame@2x.png",
+    navLightMode: "/img/experimental---sun-3@2x.png",
+    navDarkMode: "/img/experimental---moon@2x.png",
+    navMenuLight: "/img/menu-nav-light@2x.png",
 };
 

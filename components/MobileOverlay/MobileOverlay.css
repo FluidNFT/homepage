@@ -1,11 +1,35 @@
 .mobile-overlay {
-  background-color: #1e1f23;
+  background-color: #191b1f;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  min-height: 155px;
-  min-width: 135px;
-  width: 100%;
+  height: 135px;
+  width: 115px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: 8px;
+}
+
+.nav-dark:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.nav-light:hover {
+  color: #5c6372;
+  cursor: pointer;
+}
+
+.mobile-overlay-light {
+  background-color: #EFF1F0;
+  display: flex;
+  flex-direction: column;
+  height: 135px;
+  width: 115px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: 8px;
 }
 
 .overlay-close {
@@ -18,16 +42,21 @@
 .nav-light-mode-2 {
   height: 24px;
   margin-left: 84px;
-  margin-top: 4.5px;
+  margin-top: 14px;
+  margin-bottom: 2px;
   width: 24px;
 }
 
 .overlay-nav {
   align-self: flex-end;
-  height: 79px;
   letter-spacing: 0;
-  margin-right: 27px;
+  line-height: 24px;
+  margin-right: 10px;
   text-align: right;
   width: 108px;
 }
 
+.popup-content {
+  top: -50%;
+  right: -50%;
+}

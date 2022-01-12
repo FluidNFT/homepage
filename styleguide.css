@@ -26,6 +26,14 @@
   font-weight: 500;
 }
 
+.oxanium-medium-black-32px {
+  color: #000;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
 .oxanium-medium-celeste-18px {
   color: var(--celeste);
   font-family: var(--font-family-oxanium);
@@ -42,8 +50,32 @@
   font-weight: 500;
 }
 
+.oxanium-medium-celeste-24px {
+  color: var(--celeste);
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
 .oxanium-medium-white-36px {
   color: var(--white);
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.oxanium-medium-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.oxanium-medium-black-36px {
+  color: var(--black);
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -84,6 +116,14 @@
 
 .oxanium-medium-white-18px {
   color: var(--white);
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.oxanium-medium-black-18px {
+  color: #000;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xs);
   font-style: normal;
@@ -131,6 +171,13 @@
 }
 
 .oxanium-medium-white-36px-2 {
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.oxanium-medium-black-36px-2 {
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-l);
   font-style: normal;
