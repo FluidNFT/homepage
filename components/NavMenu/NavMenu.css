@@ -48,9 +48,17 @@
   width: 24px;
 }
 
+.nav-menu-dark {
+  color: var(--celeste);
+}
+
 .nav-menu-dark:hover {
   color: white;
   cursor: pointer;
+}
+
+.nav-menu-light {
+  color: #191B1F
 }
 
 .nav-menu-light:hover {

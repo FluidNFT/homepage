@@ -231,3 +231,19 @@
   font-style: normal;
   font-weight: 500;
 }
+
+.oxanium-medium-celeste-28px {
+  color: var(--celeste);
+  font-family: var(--font-family-oxanium);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.oxanium-medium-black-28px {
+  color: var(--black);
+  font-family: var(--font-family-oxanium);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+}

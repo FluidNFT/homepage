@@ -76,7 +76,9 @@ function Mobile(props) {
               <div className="overlap-group3-2">
                 <div className="background-1" style={{ backgroundImage: `url(${background})` }}></div>
                 <div className="overlap-group-4">
-                  <div className="action-text-2 valign-text-middle">{actionText}</div>
+                  <a href="#contact">
+                    <div className="action-text-2 valign-text-middle">{actionText}</div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -115,12 +117,14 @@ function Mobile(props) {
             </div>
             <div className="section-8 valign-text-middle oxanium-medium-white-24px">{sectionSixText}</div>
           </div>
-          <div className="section-seven">
+          <div className="section-seven" id="contact">
             <img className="section-seven-title-2" src={sectionSevenTitle} />
             <div className="section-seven-text-2 valign-text-middle">
               <span>
                 <span className="oxanium-medium-white-24px">{spanText7}</span>
-                <span className="span1-5">{spanText8}</span>
+                <span className="span1-5">
+                  <a href="mailto:partner@fluidnft.org" className="span1-5">{spanText8}</a>
+                </span>
                 <span className="oxanium-medium-white-24px">{spanText9}</span>
               </span>
             </div>
@@ -136,11 +140,9 @@ function Mobile(props) {
               <div className="flex-row">
                 <img className="logo-dark-mode-5" src={logoDarkMode2} />
                 <div className="footer-nav-2 valign-text-middle oxanium-medium-celeste-24px">
-                  <a className="footer-nav-dark">Docs</a>
-                  <br/>
-                  <a className="footer-nav-dark">Twitter</a>
-                  <br/>
-                  <a className="footer-nav-dark">Discord</a>
+                  <p className="footer-nav-dark"><a>Docs</a></p>
+                  <p className="footer-nav-dark"><a>Twitter</a></p>
+                  <p className="footer-nav-dark"><a>Discord</a></p>
                 </div>
               </div>
               <p className="copyright-notice-2 valign-text-middle">{copyrightNotice}</p>
@@ -176,7 +178,9 @@ function Mobile(props) {
               <div className="overlap-group3-2">
                 <div className="background-1" style={{ backgroundImage: `url(${background})` }}></div>
                 <div className="overlap-group-4-light">
-                  <div className="action-text-2 valign-text-middle">{actionText}</div>
+                  <a href="#contact_">
+                    <div className="action-text-2 valign-text-middle">{actionText}</div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -215,12 +219,14 @@ function Mobile(props) {
             </div>
             <div className="section-8 valign-text-middle oxanium-medium-black-24px">{sectionSixText}</div>
           </div>
-          <div className="section-seven-light">
+          <div className="section-seven-light" id="contact_">
             <img className="section-seven-title-2" src={sectionSevenTitle} />
             <div className="section-seven-text-2 valign-text-middle">
               <span>
                 <span className="oxanium-medium-black-24px">{spanText7}</span>
-                <span className="span1-5-light">{spanText8}</span>
+                <span className="span1-5-light">
+                <a href="mailto:partner@fluidnft.org" className="span1-5-light">{spanText8}</a>
+                </span>
                 <span className="oxanium-medium-black-24px">{spanText9}</span>
               </span>
             </div>
@@ -236,11 +242,9 @@ function Mobile(props) {
               <div className="flex-row">
                 <img className="logo-dark-mode-5" src={logoLightMode2} />
                 <div className="footer-nav-2 valign-text-middle oxanium-medium-black-24px">
-                  <a className="footer-nav-light">Docs</a>
-                  <br/>
-                  <a className="footer-nav-light">Twitter</a>
-                  <br/>
-                  <a className="footer-nav-light">Discord</a>
+                  <p className="footer-nav-light"><a>Docs</a></p>
+                  <p className="footer-nav-light"><a>Twitter</a></p>
+                  <p className="footer-nav-light"><a>Discord</a></p>
                 </div>
               </div>
               <p className="copyright-notice-2-light valign-text-middle">{copyrightNotice}</p>

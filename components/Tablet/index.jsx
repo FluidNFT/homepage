@@ -56,7 +56,9 @@ function Tablet(props) {
             <div className="section-one-text-1 valign-text-middle oxanium-medium-celeste-32px">{sectionOneText}</div>
             <div className="overlap-group4-1" style={{ backgroundImage: `url(${overlapGroup4})` }}>
               <div className="overlap-group-2">
-                <div className="action-text-1 valign-text-middle oxanium-medium-white-32px">{actionText}</div>
+                <a href="#contact">
+                  <div className="action-text-1 valign-text-middle oxanium-medium-white-32px">{actionText}</div>
+                </a>
               </div>
             </div>
           </div>
@@ -94,23 +96,23 @@ function Tablet(props) {
             </div>
             <div className="section-5 valign-text-middle oxanium-medium-white-32px">{sectionSixText}</div>
           </div>
-          <div className="section-seven-3">
+          <div className="section-seven-3" id="contact">
             <img className="section-seven-title-1" src={sectionSevenTitle} />
             <div className="section-seven-text-1 valign-text-middle oxanium-medium-white-36px-2">
               <span>
                 <span className="oxanium-medium-white-36px">{spanText7}</span>
-                <span className="span1-1 oxanium-medium-heat-wave-36px">{spanText8}</span>
+                <span className="span1-1 oxanium-medium-heat-wave-36px">
+                  <a href="mailto:partner@fluidnft.org" className="oxanium-medium-heat-wave-36px">{spanText8}</a>
+                </span>
                 <span className="oxanium-medium-white-36px">{spanText9}</span>
               </span>
             </div>
             <div className="footer-1">
               <div className="overlap-group2-1">
-                <div className="footer-nav-1 valign-text-middle oxanium-medium-celeste-32px">
-                  <a className="footer-nav-dark">Docs</a>
-                  <br/>
-                  <a className="footer-nav-dark">Twitter</a>
-                  <br/>
-                  <a className="footer-nav-dark">Discord</a>
+                <div className="footer-nav-1 valign-text-middle oxanium-medium-celeste-28px">
+                  <p className="footer-nav-dark"><a>Docs</a></p>
+                  <p className="footer-nav-dark"><a>Twitter</a></p>
+                  <p className="footer-nav-dark"><a>Discord</a></p>
                 </div>
                 <div className="copyright-notice-1 valign-text-middle oxanium-medium-celeste-18px">{copyrightNotice}</div>
               </div>
@@ -144,7 +146,9 @@ function Tablet(props) {
             <div className="section-one-text-1 valign-text-middle oxanium-medium-eerie-32px">{sectionOneText}</div>
             <div className="overlap-group4-1" style={{ backgroundImage: `url(${overlapGroup4})` }}>
               <div className="overlap-group-2-light">
-                <div className="action-text-1 valign-text-middle oxanium-medium-white-32px">{actionText}</div>
+                <a href="#contact_">
+                  <div className="action-text-1 valign-text-middle oxanium-medium-white-32px">{actionText}</div>
+                </a>
               </div>
             </div>
           </div>
@@ -182,23 +186,23 @@ function Tablet(props) {
             </div>
             <div className="section-5 valign-text-middle oxanium-medium-black-32px">{sectionSixText}</div>
           </div>
-          <div className="section-seven-3-light">
+          <div className="section-seven-3-light" id="contact_">
             <img className="section-seven-title-1" src={sectionSevenTitle} />
             <div className="section-seven-text-1 valign-text-middle oxanium-medium-black-36px-2">
               <span>
                 <span className="oxanium-medium-black-36px">{spanText7}</span>
-                <span className="span1-1 oxanium-medium-pink-36px">{spanText8}</span>
+                <span className="span1-1 oxanium-medium-pink-36px">
+                <a href="mailto:partner@fluidnft.org" className="oxanium-medium-pink-36px">{spanText8}</a>
+                </span>
                 <span className="oxanium-medium-black-36px">{spanText9}</span>
               </span>
             </div>
             <div className="footer-1-light">
               <div className="overlap-group2-1">
-                <div className="footer-nav-1 valign-text-middle oxanium-medium-eerie-32px">
-                  <a className="footer-nav-light">Docs</a>
-                  <br/>
-                  <a className="footer-nav-light">Twitter</a>
-                  <br/>
-                  <a className="footer-nav-light">Discord</a>
+                <div className="footer-nav-1 valign-text-middle oxanium-medium-black-28px">
+                  <p className="footer-nav-light"><a>Docs</a></p>
+                  <p className="footer-nav-light"><a>Twitter</a></p>
+                  <p className="footer-nav-light"><a>Discord</a></p>
                 </div>
                 <div className="copyright-notice-1-light valign-text-middle oxanium-medium-eerie-18px">{copyrightNotice}</div>
               </div>

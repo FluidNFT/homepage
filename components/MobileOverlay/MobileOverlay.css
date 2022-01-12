@@ -10,9 +10,17 @@
   margin-right: 8px;
 }
 
+.nav-dark {
+ color: var(--celeste); 
+}
+
 .nav-dark:hover {
   color: white;
   cursor: pointer;
+}
+
+.nav-light {
+  color: #000
 }
 
 .nav-light:hover {
