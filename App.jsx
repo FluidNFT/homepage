@@ -8,18 +8,18 @@ import MobileOverlay from "./components/MobileOverlay";
 import Mobile from "./components/Mobile";
 
 function App() {
-  const isMobile = useMediaQuery({ query: '(max-width: 775px)' })
-  const isTablet = useMediaQuery({ query: '(max-width: 1100px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 1100px)' })
+  // const isTablet = useMediaQuery({ query: '(max-width: 1100px)' })
   const [mode, setMode] = useState("dark");
 
   if (isMobile) {
     mobileData['mode'] = mode;
     mobileData['setMode'] = setMode;
     return <Mobile {...mobileData} />
-  } else if (isTablet) {
-    tabletData['mode'] = mode;
-    tabletData['setMode'] = setMode;
-    return <Tablet {...tabletData} />
+  // } else if (isTablet) {
+  //   tabletData['mode'] = mode;
+  //   tabletData['setMode'] = setMode;
+  //   return <Tablet {...tabletData} />
   } else {
     desktopData['mode'] = mode;
     desktopData['setMode'] = setMode;

@@ -133,7 +133,7 @@ function Mobile(props) {
                 <input type="hidden" name="u" value="3597a5e9af0d6962274f0242d" />
                 <input type="hidden" name="id" value="24d009fd28" />
                 <div className="overlap-group-5" style={{ backgroundImage: `url(${overlapGroup})` }}>
-                  <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" className="form-control form-control__input user-signup__email subscribe-input-text-2 valign-text-middle oxanium-medium-eerie-30px" placeholder={subscribeInputText} aria-required="true" required="required" />
+                  <input type="email" autoCapitalize="off" autoCorrect="off" name="MERGE0" id="MERGE0" className="form-control form-control__input user-signup__email subscribe-input-text-2 valign-text-middle oxanium-medium-eerie-30px" placeholder={subscribeInputText} aria-required="true" required="required" />
                 </div>
                 <div className="overlap-group1-2">
                   <button type="submit" className="submit user-signup__submit submit-button">
@@ -239,7 +239,7 @@ function Mobile(props) {
                 <input type="hidden" name="u" value="3597a5e9af0d6962274f0242d" />
                 <input type="hidden" name="id" value="24d009fd28" />
                 <div className="overlap-group-5" style={{ backgroundImage: `url(${overlapGroup})` }}>
-                  <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" className="form-control form-control__input user-signup__email subscribe-input-text-2 valign-text-middle oxanium-medium-eerie-30px" placeholder={subscribeInputText} aria-required="true" required="required" />
+                  <input type="email" autoCapitalize="off" autoCorrect="off" name="MERGE0" id="MERGE0" className="form-control form-control__input user-signup__email subscribe-input-text-2 valign-text-middle oxanium-medium-eerie-30px" placeholder={subscribeInputText} aria-required="true" required="required" />
                 </div>
                 <div className="overlap-group1-2">
                   <button type="submit" className="submit user-signup__submit submit-button">

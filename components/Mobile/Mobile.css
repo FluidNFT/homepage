@@ -6,6 +6,7 @@
   overflow-x: hidden;
   padding: 0.0px 0;
   width: 100%;
+  background-color: #191b1f;
 }
 
 .mobile-light {
@@ -16,6 +17,7 @@
   overflow-x: hidden;
   padding: 0.0px 0;
   width: 100%;
+  background-color: #EFF1F0;
 }
 
 .section-container {

@@ -4,6 +4,16 @@
   height: 100vh;
   min-height: 4762px;
   width: 100%;
+  background-color: #191b1f;
+}
+
+.desktop-light {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 4762px;
+  width: 100%;
+  background-color: #EFF1F0;
 }
 
 .section-one {

@@ -123,7 +123,7 @@ function Tablet(props) {
                   <button type="submit" className="submit user-signup__submit submit-button"><img className="subscribe-button-text" src={subscribeButtonText} /></button>
                 </div>
                 <div className="overlap-group1-1" style={{ backgroundImage: `url(${overlapGroup1})` }}>
-                  <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" className="form-control form-control__input user-signup__email subscribe-input-text-1 valign-text-middle oxanium-medium-eerie-30px" placeholder={subscribeInputText} aria-required="true" required="required" />
+                  <input type="email" autoCapitalize="off" autoCorrect="off" name="MERGE0" id="MERGE0" className="form-control form-control__input user-signup__email subscribe-input-text-1 valign-text-middle oxanium-medium-eerie-30px" placeholder={subscribeInputText} aria-required="true" required="required" />
                 </div>
               </form>
               <img className="logo-dark-mode-3" src={logoDarkMode2} />
@@ -135,7 +135,7 @@ function Tablet(props) {
   } else {
     return (
       <div className="container-center-horizontal">
-        <div className="tablet screen">
+        <div className="tablet-light screen">
           <div className="section-one-1-light">
             <div className="overlap-group3-1">
               <img className="logo-dark-mode-2" src={logoLightMode} />
@@ -217,7 +217,7 @@ function Tablet(props) {
                   <button type="submit" className="submit user-signup__submit submit-button"><img className="subscribe-button-text" src={subscribeButtonText} /></button>
                 </div>
                 <div className="overlap-group1-1" style={{ backgroundImage: `url(${overlapGroup1})` }}>
-                  <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" className="form-control form-control__input user-signup__email subscribe-input-text-1 valign-text-middle oxanium-medium-eerie-30px" placeholder={subscribeInputText} aria-required="true" required="required" />
+                  <input type="email" autoCapitalize="off" autoCorrect="off" name="MERGE0" id="MERGE0" className="form-control form-control__input user-signup__email subscribe-input-text-1 valign-text-middle oxanium-medium-eerie-30px" placeholder={subscribeInputText} aria-required="true" required="required" />
                 </div>
               </form>
               <img className="logo-dark-mode-3" src={logoLightMode} />
