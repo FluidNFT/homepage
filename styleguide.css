@@ -171,8 +171,24 @@
   font-weight: 500;
 }
 
+.oxanium-medium-black-48px {
+  color: #000000;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
 .oxanium-medium-white-56px {
   color: #ffffff;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.oxanium-medium-black-56px {
+  color: #000000;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xxl);
   font-style: normal;
@@ -197,6 +213,14 @@
 
 .oxanium-bold-white-72px {
   color: #ffffff;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.oxanium-bold-black-72px {
+  color: #000000;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xxxl);
   font-style: normal;
@@ -261,6 +285,14 @@
 
 .oxanium-medium-heat-wave-56px {
   color: #ff7401;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.oxanium-medium-royal-health-56px {
+  color: #aa3c73;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xxl);
   font-style: normal;

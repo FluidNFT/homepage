@@ -97,7 +97,7 @@ const tabletData = {
     navLightMode: "/img/experimental---sun-3@2x.png",
     navDarkMode: "/img/experimental---moon@2x.png",
     navMenu: "/img/nav-dark-mode.png",
-    navMenuLight: "/img/nav-dark-mode.png",
+    navMenuLight: "/img/nav-light-mode.png",
     navLightMode: "/img/experimental---sun-3@2x.png",
     navDarkMode: "/img/experimental---moon@2x.png",
 };
