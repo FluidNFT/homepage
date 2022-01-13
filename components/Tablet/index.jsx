@@ -46,7 +46,7 @@ function Tablet(props) {
 
   if (mode=="dark") {
     return (
-      <div className="container-center-horizontal">
+      <div className="container-center-horizontal container-dark">
         <div className="tablet screen">
           <div className="section-one-1">
             <div className="overlap-group3-1">
@@ -154,7 +154,7 @@ function Tablet(props) {
     );
   } else {
     return (
-      <div className="container-center-horizontal">
+      <div className="container-center-horizontal container-light">
         <div className="tablet-light screen">
           <div className="section-one-1-light">
             <div className="overlap-group3-1">

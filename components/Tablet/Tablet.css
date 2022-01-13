@@ -1,3 +1,11 @@
+.container-dark {
+  background-color: #191b1f;
+}
+
+.container-light {
+  background-color: #EFF1F0;
+}
+
 .tablet {
   align-items: flex-start;
   display: flex;
@@ -470,7 +478,7 @@
 
 .subscribe-input-text-2 {
   letter-spacing: 0;
-  height: 50px;
+  height: 85px;
   width: 100%;
 }
 
