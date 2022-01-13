@@ -71,12 +71,12 @@ function Tablet(props) {
             </div>
             <div className="section-one-title-1 valign-text-middle oxanium-bold-white-72px">{sectionOneTitle}</div>
             <div className="section-one-text-1 valign-text-middle oxanium-medium-celeste-48px">{sectionOneText}</div>
+            <div className="overlap-group-2">
+              <a href="#contact">
+                <div className="action-text-1 valign-text-middle oxanium-medium-white-48px">{actionText}</div>
+              </a>
+            </div>
             <div className="overlap-group4-1" style={{ backgroundImage: `url(${overlapGroup4})` }}>
-              <div className="overlap-group-2">
-                <a href="#contact">
-                  <div className="action-text-1 valign-text-middle oxanium-medium-white-48px">{actionText}</div>
-                </a>
-              </div>
             </div>
           </div>
           <div className="section-3">

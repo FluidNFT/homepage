@@ -72,16 +72,15 @@
   letter-spacing: 0;
   text-align: center;
   width: 85%;
-  margin-top: 3vh;
 }
 
 .overlap-group4-1 {
-  align-items: flex-start;
-  background-size: cover;
-  display: flex;
-  height: 100%;
-  margin-bottom: 0px;
+  height: 60%;
+  bottom: 0px;
   width: 100%;
+  background-size: cover;
+  position: absolute;
+  z-index: 100;
 }
 
 .overlap-group-2 {
@@ -95,6 +94,7 @@
   margin-right: auto;
   margin-top: 15vh;
   position: relative;
+  z-index: 200;
 }
 
 .overlap-group-2:hover {
