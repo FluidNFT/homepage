@@ -14,6 +14,7 @@
   --font-size-xl: 48px;
   --font-size-xs: 18px;
   --font-size-xxl: 56px;
+  --font-size-xxxl: 72px;
   --font-size-xxs: 12px;
  
   --font-family-oxanium: "Oxanium", Helvetica;
@@ -146,6 +147,22 @@
   font-weight: 500;
 }
 
+.oxanium-medium-celeste-48px {
+  color: var(--celeste);
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.oxanium-medium-white-48px {
+  color: #ffffff;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
 .oxanium-medium-eerie-32px {
   color: #191B1F;
   font-family: var(--font-family-oxanium);
@@ -162,12 +179,28 @@
   font-weight: 700;
 }
 
+.oxanium-bold-white-72px {
+  color: #ffffff;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
 .oxanium-bold-black-56px {
   color: #000000;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xxl);
   font-style: normal;
   font-weight: 700;
+}
+
+.oxanium-normal-electric-violet-48px {
+  color: #5001eb;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .oxanium-bold-electric-violet-48px {
@@ -178,6 +211,22 @@
   font-weight: 700;
 }
 
+.oxanium-bold-electric-violet-56px {
+  color: #5001eb;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.oxanium-normal-heat-wave-48px {
+  color: #ff7401;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
 .oxanium-bold-heat-wave-48px {
   color: #ff7401;
   font-family: var(--font-family-oxanium);
@@ -186,10 +235,34 @@
   font-weight: 700;
 }
 
+.oxanium-bold-heat-wave-56px {
+  color: #ff7401;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.oxanium-normal-royal-heath-48px {
+  color: #aa3c73;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
 .oxanium-bold-royal-heath-48px {
   color: #aa3c73;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.oxanium-bold-royal-heath-56px {
+  color: #aa3c73;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xxl);
   font-style: normal;
   font-weight: 700;
 }

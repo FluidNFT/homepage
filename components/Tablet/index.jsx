@@ -1,5 +1,7 @@
 import React from "react";
 import NavMenu from "../NavMenu";
+import Popup from 'reactjs-popup';
+import MobileOverlay from '../MobileOverlay';
 import "./Tablet.css";
 
 function Tablet(props) {
@@ -34,6 +36,8 @@ function Tablet(props) {
     mode,
     setMode,
     logoLightMode,
+    navMenu,
+    navMenuLight,
   } = props;
 
   console.log('tablet mode', mode);
@@ -45,38 +49,51 @@ function Tablet(props) {
           <div className="section-one-1">
             <div className="overlap-group3-1">
               <img className="logo-dark-mode-2" src={logoDarkMode} />
-              <div className="navigation-1">
+              {/* <div className="navigation-1">
                 <NavMenu 
                 mode={mode}
                 setMode={setMode}
                 />
+              </div> */}
+              <div className="navigation-2">
+                <Popup modal trigger={
+                  <img className="nav-menu-22" src={navMenu} />
+                } modal nested>
+                <MobileOverlay 
+                  // overlayClose={overlayClose}
+                  // navLightMode={navLightMode}
+                  // navDarkMode={navDarkMode}
+                  // mode={mode}
+                  // setMode={setMode}
+                />
+                </Popup>
               </div>
             </div>
-            <div className="section-one-title-1 valign-text-middle oxanium-bold-white-56px">{sectionOneTitle}</div>
-            <div className="section-one-text-1 valign-text-middle oxanium-medium-celeste-32px">{sectionOneText}</div>
+            <div className="section-one-title-1 valign-text-middle oxanium-bold-white-72px">{sectionOneTitle}</div>
+            <div className="section-one-text-1 valign-text-middle oxanium-medium-celeste-48px">{sectionOneText}</div>
             <div className="overlap-group4-1" style={{ backgroundImage: `url(${overlapGroup4})` }}>
               <div className="overlap-group-2">
                 <a href="#contact">
-                  <div className="action-text-1 valign-text-middle oxanium-medium-white-32px">{actionText}</div>
+                  <div className="action-text-1 valign-text-middle oxanium-medium-white-48px">{actionText}</div>
                 </a>
               </div>
             </div>
           </div>
           <div className="section-3">
             <img className="section-two-title-1" src={sectionTwoTitle} />
-            <div className="section-two-text-1 valign-text-middle oxanium-medium-white-36px">{sectionTwoText}</div>
+            <div className="section-two-text-1 valign-text-middle oxanium-medium-white-48px">{sectionTwoText}</div>
           </div>
           <div className="section-three-1">
             <img className="section-three-title-1" src={sectionThreeTitle} />
           </div>
-          <div className="section-3">
+          <div className="section-3a">
             <div className="section-4 valign-text-middle oxanium-normal-electric-violet-36px">
               <span>
-                <span className="oxanium-normal-electric-violet-36px">{spanText}</span>
-                <span className="oxanium-bold-electric-violet-48px">{spanText2}</span>
+                <span className="oxanium-normal-electric-violet-48px">{spanText}</span>
+                <span className="oxanium-bold-electric-violet-56px">{spanText2}</span>
               </span>
             </div>
-            <div className="section-5 valign-text-middle oxanium-medium-white-32px">{sectionFourText}</div>
+            <div className="section-5 valign-text-middle oxanium-medium-white-48px">{sectionFourText}</div>
           </div>
           <div className="section-3">
             <div className="section-five-title-1 valign-text-middle oxanium-normal-heat-wave-36px">

@@ -41,12 +41,12 @@
 }
 
 .logo-dark-mode-2 {
-  height: 31px;
+  height: 56px;
   left: 27px;
   object-fit: cover;
   position: absolute;
-  top: 18px;
-  width: 96px;
+  top: 27px;
+  width: 173px;
 }
 
 .navigation-1 {
@@ -60,18 +60,19 @@
 }
 
 .section-one-title-1 {
-  height: 183px;
+  height: 285px;
   letter-spacing: 0;
-  margin-top: 20vh;
+  margin-top: 25vh;
   text-align: center;
-  width: 672px;
+  width: 85%;
 }
 
 .section-one-text-1 {
-  height: 182px;
+  height: 285px;
   letter-spacing: 0;
   text-align: center;
-  width: 672px;
+  width: 85%;
+  padding-top: 30px;
 }
 
 .overlap-group4-1 {
@@ -79,10 +80,9 @@
   background-position: 50% 50%;
   background-size: cover;
   display: flex;
-  height: 410px;
+  height: 100%;
   margin-bottom: 0px;
   width: 100%;
-  /* padding: 25.2px 283px; */
 }
 
 .overlap-group-2 {
@@ -90,11 +90,11 @@
   background-color: #ff7401;
   border-radius: 5px;
   display: flex;
-  width: 268px;
+  width: 85%;
   padding: 0 0.3px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 60px;
   position: relative;
 }
 
@@ -107,7 +107,7 @@
   background-color: #AA3C73;
   border-radius: 5px;
   display: flex;
-  width: 268px;
+  width: 85%;
   padding: 0 0.3px;
   margin-left: auto;
   margin-right: auto;
@@ -120,10 +120,12 @@
 }
 
 .action-text-1 {
-  height: 55px;
+  height: 95px;
   letter-spacing: 0;
   text-align: center;
   width: 267px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-3 {
@@ -131,6 +133,15 @@
   display: flex;
   flex-direction: column;
   height: 994px;
+  width: 100%;
+}
+
+.section-3a {
+  background-color: #191b1f;
+  display: flex;
+  flex-direction: column;
+  /* height: 994px; */
+  height: 1800px;
   width: 100%;
 }
 
@@ -144,16 +155,16 @@
 
 .section-two-title-1 {
   align-self: center;
-  height: 46px;
+  height: 70px;
   margin-top: 203px;
-  width: 635.5px;
+  width: 85%;
 }
 
 .section-two-text-1 {
   flex: 1;
   letter-spacing: 0;
-  margin-left: 11.27%;
-  margin-right: 11.27%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
   margin-top: 116px;
   max-height: 519px;
   text-align: center;
@@ -176,9 +187,9 @@
 }
 
 .section-three-title-1 {
-  height: 156.5px;
+  height: 140px;
   margin-top: 156px;
-  width: 587.5px;
+  width: 85%;
 }
 
 .section-4 {
@@ -195,7 +206,7 @@
   letter-spacing: 0;
   margin-left: 9.71%;
   margin-right: 9.71%;
-  /* margin-top: 66px; */
+  margin-top: 12vh;
   max-height: 654px;
 }
 
@@ -388,4 +399,11 @@
 .overlap-group-3:hover, .overlap-group-3:active {
   background-color: #191b1f;
   cursor: pointer;
+}
+
+.nav-menu-22 {
+  height: 72px;
+  margin-right: 22px;
+  margin-top: 17px;
+  width: 72px;
 }
