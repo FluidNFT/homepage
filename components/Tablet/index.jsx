@@ -4,6 +4,9 @@ import Popup from 'reactjs-popup';
 import MobileOverlay from '../MobileOverlay';
 import "./Tablet.css";
 
+var Scroll = require('react-scroll');
+var scroll = Scroll.animateScroll;
+
 function Tablet(props) {
   const {
     logoDarkMode,
@@ -73,7 +76,7 @@ function Tablet(props) {
             <div className="section-one-title-1 valign-text-middle oxanium-bold-white-72px">{sectionOneTitle}</div>
             <div className="section-one-text-1 valign-text-middle oxanium-medium-celeste-48px">{sectionOneText}</div>
             <div className="overlap-group-2">
-              <a href="#contact">
+              <a onClick={() => scroll.scrollToBottom()}>
                 <div className="action-text-1 valign-text-middle oxanium-medium-white-48px">{actionText}</div>
               </a>
             </div>
@@ -170,7 +173,7 @@ function Tablet(props) {
             <div className="section-one-text-1 valign-text-middle oxanium-medium-eerie-32px">{sectionOneText}</div>
             <div className="overlap-group4-1" style={{ backgroundImage: `url(${overlapGroup4})` }}>
               <div className="overlap-group-2-light">
-                <a href="#contact_">
+                <a onClick={() => scroll.scrollToBottom()}>
                   <div className="action-text-1 valign-text-middle oxanium-medium-white-32px">{actionText}</div>
                 </a>
               </div>

@@ -118,6 +118,7 @@
 
 .overlap-group:hover {
   background-color: #ff821b;
+  cursor: pointer;
 }
 
 .overlap-group-light {
@@ -137,6 +138,7 @@
 
 .overlap-group-light:hover {
   background-color: #bd4380;
+  cursor: pointer;
 }
 
 .action-text {

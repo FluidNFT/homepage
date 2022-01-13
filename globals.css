@@ -2,10 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Oxanium:400,700,500");
 
-.html {
-  scroll-behavior: smooth;
-}
-
 .screen a {
   display: contents;
   text-decoration: none;

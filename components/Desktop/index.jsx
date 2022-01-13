@@ -2,6 +2,9 @@ import React from "react";
 import NavMenu from "../NavMenu";
 import "./Desktop.css";
 
+var Scroll = require('react-scroll');
+var scroll = Scroll.animateScroll;
+
 function Desktop(props) {
   const {
     logoDarkMode,
@@ -54,7 +57,7 @@ function Desktop(props) {
             <h1 className="section-one-title valign-text-middle oxanium-bold-white-56px">{sectionOneTitle}</h1>
             <div className="section-one-text valign-text-middle oxanium-medium-celeste-32px">{sectionOneText}</div>
             <div className="overlap-group">
-              <a href="#contact">
+              <a onClick={() => scroll.scrollToBottom()}>
                 <div className="action-text valign-text-middle oxanium-medium-white-32px">{actionText}</div>
               </a>
             </div>
@@ -147,7 +150,7 @@ function Desktop(props) {
             <h1 className="section-one-title valign-text-middle oxanium-bold-black-56px">{sectionOneTitle}</h1>
             <div className="section-one-text valign-text-middle oxanium-medium-eerie-32px">{sectionOneText}</div>
             <div className="overlap-group-light">
-              <a href="#contact_">
+              <a onClick={() => scroll.scrollToBottom()}>
                 <div className="action-text valign-text-middle oxanium-medium-white-32px">{actionText}</div>
               </a>
             </div>

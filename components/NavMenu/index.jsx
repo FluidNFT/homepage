@@ -1,6 +1,9 @@
 import React from "react";
 import "./NavMenu.css";
 
+var Scroll = require('react-scroll');
+var scroll = Scroll.animateScroll;
+
 function NavMenu(props) {
 
   const {mode, setMode} = props
@@ -20,7 +23,7 @@ function NavMenu(props) {
           <a href="https://discord.gg/sBk2E7m5" target="_blank" className="nav-menu-dark">Discord</a>
         </div>
         <div className="nav-menu-dark nav-contact valign-text-middle">
-          <a href="#contact" className="nav-menu-dark">Contact</a>
+          <a onClick={() => scroll.scrollToBottom()} className="nav-menu-dark">Contact</a>
         </div>
         <img onClick={()=>setMode("light")} className="nav-menu-dark nav-light-mode" src="/img/experimental---sun-2@2x.png" />
       </div>
@@ -38,7 +41,7 @@ function NavMenu(props) {
           <a href="https://discord.gg/sBk2E7m5" target="_blank" className="nav-menu-light">Discord</a>
         </div>
         <div className="nav-menu-light nav-contact valign-text-middle">
-          <a href="#contact_" className="nav-menu-light">Contact</a>
+          <a onClick={() => scroll.scrollToBottom()} className="nav-menu-light">Contact</a>
         </div>
         <img onClick={()=>setMode("dark")} className="nav-menu-light nav-light-mode" src="/img/experimental---moon@2x.png" />
       </div>
