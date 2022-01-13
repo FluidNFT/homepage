@@ -1,13 +1,13 @@
 import React from "react";
 import NavMenu from "../NavMenu";
 import Popup from 'reactjs-popup';
-import MobileOverlay from '../MobileOverlay';
-import "./Tablet.css";
+import MobileOrTabletOverlay from '../MobileOrTabletOverlay';
+import "./MobileOrTablet.css";
 
 var Scroll = require('react-scroll');
 var scroll = Scroll.animateScroll;
 
-function Tablet(props) {
+function MobileOrTablet(props) {
   const {
     logoDarkMode,
     sectionOneTitle,
@@ -45,8 +45,6 @@ function Tablet(props) {
     navDarkMode,
   } = props;
 
-  console.log('tablet mode', mode);
-
   if (mode=="dark") {
     return (
       <div className="container-center-horizontal container-dark">
@@ -58,7 +56,7 @@ function Tablet(props) {
                 <Popup modal trigger={
                   <img className="nav-menu-22" src={navMenu} />
                 } modal nested>
-                <MobileOverlay 
+                <MobileOrTabletOverlay 
                   navLightMode={navLightMode}
                   navDarkMode={navDarkMode}
                   mode={mode}
@@ -110,7 +108,7 @@ function Tablet(props) {
             </div>
             <div className="section-5 valign-text-middle oxanium-medium-white-48px">{sectionSixText}</div>
           </div>
-          <div className="section-seven-3" id="contact">
+          <div className="section-seven-3">
             <img className="section-seven-title-1" src={sectionSevenTitle} />
             <div className="section-seven-text-1 valign-text-middle oxanium-medium-white-56px">
               <span>
@@ -159,7 +157,7 @@ function Tablet(props) {
               <Popup modal trigger={
                   <img className="nav-menu-22" src={navMenuLight} />
                 } modal nested>
-                <MobileOverlay 
+                <MobileOrTabletOverlay 
                   navLightMode={navLightMode}
                   navDarkMode={navDarkMode}
                   mode={mode}
@@ -211,7 +209,7 @@ function Tablet(props) {
             </div>
             <div className="section-5 valign-text-middle oxanium-medium-black-48px">{sectionSixText}</div>
           </div>
-          <div className="section-seven-3-light" id="contact_">
+          <div className="section-seven-3-light">
             <img className="section-seven-title-1" src={sectionSevenTitle} />
             <div className="section-seven-text-1 valign-text-middle oxanium-medium-black-56px">
               <span>
@@ -252,4 +250,4 @@ function Tablet(props) {
   }  
 }
 
-export default Tablet;
+export default MobileOrTablet;

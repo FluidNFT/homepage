@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import "./MobileOverlay.css";
+import "./MobileOrTabletOverlay.css";
 
-function MobileOverlay(props) {
+function MobileOrTabletOverlay(props) {
   const { overlayClose, navLightMode, navDarkMode, overlayNav, mode, setMode } = props;
 
   console.log('navDarkMode', navDarkMode);
@@ -44,4 +44,4 @@ function MobileOverlay(props) {
 
 }
 
-export default MobileOverlay;
+export default MobileOrTabletOverlay;

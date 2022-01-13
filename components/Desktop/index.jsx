@@ -98,7 +98,7 @@ function Desktop(props) {
           </div>
           <div className="section-2 valign-text-middle oxanium-medium-white-32px">{sectionSixText}</div>
         </div>
-        <div className="section-seven" id="contact">
+        <div className="section-seven">
           <img className="section-seven-title" src={sectionSevenTitle} />
           <div className="section-seven-text valign-text-middle oxanium-medium-white-36px-2">
             <span>
@@ -191,7 +191,7 @@ function Desktop(props) {
           </div>
           <div className="section-2 valign-text-middle oxanium-medium-black-32px">{sectionSixText}</div>
         </div>
-        <div className="section-seven-light" id="contact_">
+        <div className="section-seven-light">
           <img className="section-seven-title" src={sectionSevenTitle} />
           <div className="section-seven-text valign-text-middle oxanium-medium-black-36px-2">
             <span>
