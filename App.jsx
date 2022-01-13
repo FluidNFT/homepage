@@ -18,9 +18,9 @@ function App() {
   //   mobileData['setMode'] = setMode;
   //   return <Mobile {...mobileData} />
   if (isMobileOrTablet) {
-    mobileOrTabletData['mode'] = mode;
-    mobileOrTabletData['setMode'] = setMode;
-    return <MobileOrTablet {...mobileOrTabletData} />
+    tabletData['mode'] = mode;
+    tabletData['setMode'] = setMode;
+    return <Tablet {...tabletData} />
   } else {
     desktopData['mode'] = mode;
     desktopData['setMode'] = setMode;
