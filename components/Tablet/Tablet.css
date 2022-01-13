@@ -140,7 +140,7 @@
   display: flex;
   flex-direction: column;
   /* height: 994px; */
-  height: 1188px;
+  height: 1450px;
   width: 100%;
 }
 
@@ -233,7 +233,7 @@
   background-color: #191b1f;
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -249,7 +249,7 @@
   align-self: center;
   height: 70px;
   margin-left: 1px;
-  margin-top: 12vh;
+  margin-top: 25vh;
   width: 85%;
 }
 
@@ -260,7 +260,7 @@
   margin-right: 9.59%;
   max-height: 317px;
   text-align: center;
-  margin-top: 4vh;
+  margin-top: 10vh;
 }
 
 .span1-1 {
