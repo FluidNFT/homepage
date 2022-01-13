@@ -38,6 +38,8 @@ function Tablet(props) {
     logoLightMode,
     navMenu,
     navMenuLight,
+    navLightMode,
+    navDarkMode,
   } = props;
 
   console.log('tablet mode', mode);
@@ -55,16 +57,15 @@ function Tablet(props) {
                 setMode={setMode}
                 />
               </div> */}
-              <div className="navigation-2">
+              <div className="navigation-1">
                 <Popup modal trigger={
                   <img className="nav-menu-22" src={navMenu} />
                 } modal nested>
                 <MobileOverlay 
-                  // overlayClose={overlayClose}
-                  // navLightMode={navLightMode}
-                  // navDarkMode={navDarkMode}
-                  // mode={mode}
-                  // setMode={setMode}
+                  navLightMode={navLightMode}
+                  navDarkMode={navDarkMode}
+                  mode={mode}
+                  setMode={setMode}
                 />
                 </Popup>
               </div>
@@ -95,55 +96,57 @@ function Tablet(props) {
             </div>
             <div className="section-5 valign-text-middle oxanium-medium-white-48px">{sectionFourText}</div>
           </div>
-          <div className="section-3">
-            <div className="section-five-title-1 valign-text-middle oxanium-normal-heat-wave-36px">
+          <div className="section-3a">
+            <div className="section-five-title-1 valign-text-middle oxanium-normal-heat-wave-48px">
               <span>
-                <span className="oxanium-normal-heat-wave-36px">{spanText3}</span>
-                <span className="oxanium-bold-heat-wave-48px">{spanText4}</span>
+                <span className="oxanium-normal-heat-wave-48px">{spanText3}</span>
+                <span className="oxanium-bold-heat-wave-56px">{spanText4}</span>
               </span>
             </div>
-            <div className="section-five-text-1 valign-text-middle oxanium-medium-white-32px">{sectionFiveText}</div>
+            <div className="section-five-text-1 valign-text-middle oxanium-medium-white-48px">{sectionFiveText}</div>
           </div>
-          <div className="section-3">
-            <div className="section-4 valign-text-middle oxanium-normal-royal-heath-36px">
+          <div className="section-3a">
+            <div className="section-4 valign-text-middle oxanium-normal-royal-heath-48px">
               <span>
-                <span className="oxanium-normal-royal-heath-36px">{spanText5}</span>
-                <span className="oxanium-bold-royal-heath-48px">{spanText6}</span>
+                <span className="oxanium-normal-royal-heath-48px">{spanText5}</span>
+                <span className="oxanium-bold-royal-heath-56px">{spanText6}</span>
               </span>
             </div>
-            <div className="section-5 valign-text-middle oxanium-medium-white-32px">{sectionSixText}</div>
+            <div className="section-5 valign-text-middle oxanium-medium-white-48px">{sectionSixText}</div>
           </div>
           <div className="section-seven-3" id="contact">
             <img className="section-seven-title-1" src={sectionSevenTitle} />
-            <div className="section-seven-text-1 valign-text-middle oxanium-medium-white-36px-2">
+            <div className="section-seven-text-1 valign-text-middle oxanium-medium-white-56px">
               <span>
-                <span className="oxanium-medium-white-36px">{spanText7}</span>
-                <span className="span1-1 oxanium-medium-heat-wave-36px">
-                  <a href="mailto:partner@fluidnft.org" className="oxanium-medium-heat-wave-36px">{spanText8}</a>
+                <span className="oxanium-medium-white-56px">{spanText7}</span>
+                <span className="span1-1 oxanium-medium-heat-wave-56px">
+                  <a href="mailto:partner@fluidnft.org" className="oxanium-medium-heat-wave-56px">{spanText8}</a>
                 </span>
-                <span className="oxanium-medium-white-36px">{spanText9}</span>
+                <span className="oxanium-medium-white-56px">{spanText9}</span>
               </span>
             </div>
-            <div className="footer-1">
-              <div className="overlap-group2-1">
-                <div className="footer-nav-1 valign-text-middle oxanium-medium-celeste-28px">
+            <div className="footer-2">
+              <form className="form user-signup__form" action="https://xyz.us20.list-manage.com/subscribe/post" method="POST">
+                <input type="hidden" name="u" value="3597a5e9af0d6962274f0242d" />
+                <input type="hidden" name="id" value="24d009fd28" />
+                <div className="overlap-group-5" style={{ backgroundImage: `url(${overlapGroup1})` }}>
+                  <input type="email" autoCapitalize="off" autoCorrect="off" name="MERGE0" id="MERGE0" className="form-control form-control__input user-signup__email subscribe-input-text-2 valign-text-middle oxanium-medium-eerie-48px" placeholder={subscribeInputText} aria-required="true" required="required" />
+                </div>
+                <div className="overlap-group1-2">
+                  <button type="submit" className="submit user-signup__submit submit-button">
+                    <img className="subscribe-button-text-2" src={subscribeButtonText} />
+                  </button>
+                </div>
+              </form>
+              <div className="flex-row">
+                <img className="logo-dark-mode-5" src={logoDarkMode2} />
+                <div className="footer-nav-2 valign-text-middle oxanium-medium-celeste-48px">
                   <p className="footer-nav-dark"><a href="https://niftrr.gitbook.io/fluidnft/" target="_blank" className="footer-nav-dark">Docs</a></p>
                   <p className="footer-nav-dark"><a href="https://twitter.com/FluidNFT_" target="_blank" className="footer-nav-dark">Twitter</a></p>
                   <p className="footer-nav-dark"><a href="https://discord.gg/sBk2E7m5" target="_blank" className="footer-nav-dark">Discord</a></p>
                 </div>
-                <div className="copyright-notice-1 valign-text-middle oxanium-medium-celeste-18px">{copyrightNotice}</div>
               </div>
-              <form className="form user-signup__form" action="https://xyz.us20.list-manage.com/subscribe/post" method="POST">
-                <input type="hidden" name="u" value="3597a5e9af0d6962274f0242d" />
-                <input type="hidden" name="id" value="24d009fd28" />
-                <div className="overlap-group-3">
-                  <button type="submit" className="submit user-signup__submit submit-button"><img className="subscribe-button-text" src={subscribeButtonText} /></button>
-                </div>
-                <div className="overlap-group1-1" style={{ backgroundImage: `url(${overlapGroup1})` }}>
-                  <input type="email" autoCapitalize="off" autoCorrect="off" name="MERGE0" id="MERGE0" className="form-control form-control__input user-signup__email subscribe-input-text-1 valign-text-middle oxanium-medium-eerie-30px" placeholder={subscribeInputText} aria-required="true" required="required" />
-                </div>
-              </form>
-              <img className="logo-dark-mode-3" src={logoDarkMode2} />
+              <p className="copyright-notice-2 valign-text-middle">{copyrightNotice}</p>
             </div>
           </div>
         </div>

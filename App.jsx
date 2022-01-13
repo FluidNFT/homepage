@@ -81,14 +81,14 @@ const tabletData = {
     spanText5: <>Liquidators<br /></>,
     spanText6: "Buy NFTs below market price",
     sectionSixText: <>Liquidators buyout expired or under-collaterlized loan positions to reteive the underlying NFT at a discounted price.<br /><br />For example, if the collateralization ratio of a loan falls below the minimum threshold then a liquidator will be able to trigger a timed auction with an intial bid to cover the outstanding debt.<br /><br />As a protection from market risk, borrowers are still able to retrieve their NFT for the same amount plus a fee to the liquidator. If the auction completes and the liquidator is outbid they still earn a fee.</>,
-    sectionSevenTitle: "/img/working-with-the-community@2x.png",
+    sectionSevenTitle: "/img/working-with-the-community-1@2x.png",
     spanText7: "We partner with NFT Creators to onboard collections. Contact us to ",
     spanText8: "partner@fluidnft.org",
     spanText9: ".",
     footerNav: <>Docs<br />Twitter<br />Discord</>,
     copyrightNotice: "Copyright © 2022 Fluid NFT Labs",
     subscribeButtonText: "/img/join-the-waitlist-3@2x.png",
-    overlapGroup1: "/img/item-container-select-3@2x.png",
+    overlapGroup1: "/img/item-container-select-2@2x.png",
     subscribeInputText: "Email",
     logoDarkMode2: "/img/fluidlogonegativesmall@2x.png",
     logoLightMode: "/img/fluidlogopositivesmall@2x.png",
@@ -98,6 +98,8 @@ const tabletData = {
     navDarkMode: "/img/experimental---moon@2x.png",
     navMenu: "/img/nav-dark-mode.png",
     navMenuLight: "/img/nav-dark-mode.png",
+    navLightMode: "/img/experimental---sun-3@2x.png",
+    navDarkMode: "/img/experimental---moon@2x.png",
 };
 
 const mobileData = {

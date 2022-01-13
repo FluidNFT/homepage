@@ -2,8 +2,8 @@
   background-color: #191b1f;
   display: flex;
   flex-direction: column;
-  height: 135px;
-  width: 115px;
+  height: 300px;
+  width: 232px;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -48,20 +48,20 @@
 }
 
 .nav-light-mode-2 {
-  height: 24px;
-  margin-left: 84px;
-  margin-top: 14px;
+  height: 82px;
+  margin-left: 120px;
+  margin-top: 22px;
   margin-bottom: 2px;
-  width: 24px;
+  width: 82px;
 }
 
 .overlay-nav {
   align-self: flex-end;
   letter-spacing: 0;
-  line-height: 24px;
-  margin-right: 10px;
+  line-height: 60px;
+  margin-right: 32px;
   text-align: right;
-  width: 108px;
+  width: 232px;
 }
 
 .popup-content {
