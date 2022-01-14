@@ -203,7 +203,7 @@ function Desktop(props) {
             </span>
           </div>
           <div className="footer">
-            <div className="overlap-group2">
+            <div className="overlap-group2-light">
               <div className="copyright-notice-light valign-text-middle oxanium-medium-eerie-18px">{copyrightNotice}</div>
               <div className="footer-nav valign-text-middle oxanium-medium-black-28px">
                 <p className="footer-nav-light"><a href="https://niftrr.gitbook.io/fluidnft/" target="_blank" className="footer-nav-light">Docs</a></p>

@@ -298,6 +298,16 @@
   position: absolute;
   top: 0;
   width: 100%;
+  background: #191b1f;
+}
+
+.overlap-group2-light {
+  min-height: 235px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #EFF1F0;
 }
 
 .copyright-notice {
