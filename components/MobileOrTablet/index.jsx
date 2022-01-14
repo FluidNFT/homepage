@@ -93,8 +93,8 @@ function MobileOrTablet(props) {
           <div className="section-3a">
             <div className="section-five-title-1 valign-text-middle oxanium-normal-heat-wave-48px">
               <span>
-                <span className="oxanium-normal-heat-wave-48px">{spanText3}</span>
-                <span className="oxanium-bold-heat-wave-56px">{spanText4}</span>
+                <span className="oxanium-normal-royal-heath-48px">{spanText3}</span>
+                <span className="oxanium-bold-royal-heath-56px">{spanText4}</span>
               </span>
             </div>
             <div className="section-five-text-1 valign-text-middle oxanium-medium-white-48px">{sectionFiveText}</div>
@@ -102,8 +102,8 @@ function MobileOrTablet(props) {
           <div className="section-3a">
             <div className="section-4 valign-text-middle oxanium-normal-royal-heath-48px">
               <span>
-                <span className="oxanium-normal-royal-heath-48px">{spanText5}</span>
-                <span className="oxanium-bold-royal-heath-56px">{spanText6}</span>
+                <span className="oxanium-normal-heat-wave-48px">{spanText5}</span>
+                <span className="oxanium-bold-heat-wave-56px">{spanText6}</span>
               </span>
             </div>
             <div className="section-5 valign-text-middle oxanium-medium-white-48px">{sectionSixText}</div>
@@ -116,7 +116,6 @@ function MobileOrTablet(props) {
                 <span className="span1-1 oxanium-medium-heat-wave-56px">
                   <a href="mailto:partner@fluidnft.org" className="oxanium-medium-heat-wave-56px">{spanText8}</a>
                 </span>
-                <span className="oxanium-medium-white-56px">{spanText9}</span>
               </span>
             </div>
             <div className="footer-2">
@@ -194,8 +193,8 @@ function MobileOrTablet(props) {
           <div className="section-3a-light">
             <div className="section-five-title-1 valign-text-middle oxanium-normal-heat-wave-48px">
               <span>
-                <span className="oxanium-normal-heat-wave-48px">{spanText3}</span>
-                <span className="oxanium-bold-heat-wave-56px">{spanText4}</span>
+                <span className="oxanium-normal-royal-heath-48px">{spanText3}</span>
+                <span className="oxanium-bold-royal-heath-56px">{spanText4}</span>
               </span>
             </div>
             <div className="section-five-text-1 valign-text-middle oxanium-medium-black-48px">{sectionFiveText}</div>
@@ -203,8 +202,8 @@ function MobileOrTablet(props) {
           <div className="section-3a-light">
             <div className="section-4 valign-text-middle oxanium-normal-royal-heath-48px">
               <span>
-                <span className="oxanium-normal-royal-heath-48px">{spanText5}</span>
-                <span className="oxanium-bold-royal-heath-56px">{spanText6}</span>
+                <span className="oxanium-normal-heat-wave-48px">{spanText5}</span>
+                <span className="oxanium-bold-heat-wave-56px">{spanText6}</span>
               </span>
             </div>
             <div className="section-5 valign-text-middle oxanium-medium-black-48px">{sectionSixText}</div>
@@ -217,7 +216,6 @@ function MobileOrTablet(props) {
                 <span className="span1-1 oxanium-medium-royal-health-56px">
                 <a href="mailto:partner@fluidnft.org" className="oxanium-medium-royal-health-56px">{spanText8}</a>
                 </span>
-                <span className="oxanium-medium-black-56px">{spanText9}</span>
               </span>
             </div>
             <div className="footer-2-light">

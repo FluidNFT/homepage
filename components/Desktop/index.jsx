@@ -83,8 +83,8 @@ function Desktop(props) {
         <div className="section">
           <div className="section-five-title valign-text-middle oxanium-normal-heat-wave-36px">
             <span>
-              <span className="oxanium-normal-heat-wave-36px">{spanText3}</span>
-              <span className="oxanium-bold-heat-wave-48px">{spanText4}</span>
+              <span className="oxanium-normal-royal-heath-36px">{spanText3}</span>
+              <span className="oxanium-bold-royal-heath-48px">{spanText4}</span>
             </span>
           </div>
           <div className="section-five-text valign-text-middle oxanium-medium-white-32px">{sectionFiveText}</div>
@@ -92,8 +92,8 @@ function Desktop(props) {
         <div className="section">
           <div className="section-1 valign-text-middle oxanium-normal-royal-heath-36px">
             <span>
-              <span className="oxanium-normal-royal-heath-36px">{spanText5}</span>
-              <span className="oxanium-bold-royal-heath-48px">{spanText6}</span>
+              <span className="oxanium-normal-heat-wave-36px">{spanText5}</span>
+              <span className="oxanium-bold-heat-wave-48px">{spanText6}</span>
             </span>
           </div>
           <div className="section-2 valign-text-middle oxanium-medium-white-32px">{sectionSixText}</div>
@@ -106,7 +106,6 @@ function Desktop(props) {
               <span className="span1 oxanium-medium-heat-wave-36px">
               <a href="mailto:partner@fluidnft.org" className="oxanium-medium-heat-wave-36px">{spanText8}</a>
               </span>
-              <span className="oxanium-medium-white-36px">{spanText9}</span>
             </span>
           </div>
           <div className="footer">
@@ -176,8 +175,8 @@ function Desktop(props) {
         <div className="section-light">
           <div className="section-five-title valign-text-middle oxanium-normal-heat-wave-36px">
             <span>
-              <span className="oxanium-normal-heat-wave-36px">{spanText3}</span>
-              <span className="oxanium-bold-heat-wave-48px">{spanText4}</span>
+              <span className="oxanium-normal-royal-heath-36px">{spanText3}</span>
+              <span className="oxanium-bold-royal-heath-48px">{spanText4}</span>
             </span>
           </div>
           <div className="section-five-text valign-text-middle oxanium-medium-black-32px">{sectionFiveText}</div>
@@ -185,8 +184,8 @@ function Desktop(props) {
         <div className="section-light">
           <div className="section-1 valign-text-middle oxanium-normal-royal-heath-36px">
             <span>
-              <span className="oxanium-normal-royal-heath-36px">{spanText5}</span>
-              <span className="oxanium-bold-royal-heath-48px">{spanText6}</span>
+              <span className="oxanium-normal-heat-wave-36px">{spanText5}</span>
+              <span className="oxanium-bold-heat-wave-48px">{spanText6}</span>
             </span>
           </div>
           <div className="section-2 valign-text-middle oxanium-medium-black-32px">{sectionSixText}</div>
@@ -199,7 +198,6 @@ function Desktop(props) {
               <span className="span1 oxanium-medium-pink-36px">
                 <a href="mailto:partner@fluidnft.org" className="oxanium-medium-pink-36px">{spanText8}</a>
               </span>
-              <span className="oxanium-medium-black-36px">{spanText9}</span>
             </span>
           </div>
           <div className="footer">
