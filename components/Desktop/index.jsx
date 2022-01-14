@@ -115,7 +115,7 @@ function Desktop(props) {
               <div className="footer-nav valign-text-middle oxanium-medium-celeste-28px">
                 <p className="footer-nav-dark"><a href="https://niftrr.gitbook.io/fluidnft/" target="_blank" className="footer-nav-dark">Docs</a></p>
                 <p className="footer-nav-dark"><a href="https://twitter.com/FluidNFT_" target="_blank" className="footer-nav-dark">Twitter</a></p>
-                <p className="footer-nav-dark"><a href="https://discord.gg/sBk2E7m5" target="_blank" className="footer-nav-dark">Discord</a></p>
+                <p className="footer-nav-dark"><a href="https://discord.gg/2N5wVwsRAe" target="_blank" className="footer-nav-dark">Discord</a></p>
               </div>
             </div>
             <form className="form user-signup__form" action="https://xyz.us20.list-manage.com/subscribe/post" method="POST">
@@ -208,7 +208,7 @@ function Desktop(props) {
               <div className="footer-nav valign-text-middle oxanium-medium-black-28px">
                 <p className="footer-nav-light"><a href="https://niftrr.gitbook.io/fluidnft/" target="_blank" className="footer-nav-light">Docs</a></p>
                 <p className="footer-nav-light"><a href="https://twitter.com/FluidNFT_" target="_blank" className="footer-nav-light">Twitter</a></p>
-                <p className="footer-nav-light"><a href="https://discord.gg/sBk2E7m5" target="_blank" className="footer-nav-light">Discord</a></p>
+                <p className="footer-nav-light"><a href="https://discord.gg/2N5wVwsRAe" target="_blank" className="footer-nav-light">Discord</a></p>
               </div>
             </div>
             <form className="form user-signup__form" action="https://xyz.us20.list-manage.com/subscribe/post" method="POST">

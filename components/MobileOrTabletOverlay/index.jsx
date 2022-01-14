@@ -19,7 +19,7 @@ function MobileOrTabletOverlay(props) {
           <a href="https://twitter.com/FluidNFT_" target="_blank" className="nav-dark">Twitter</a>
         </div>
         <div className="overlay-nav valign-text-middle oxanium-medium-celeste-48px nav-dark">
-          <a href="https://discord.gg/sBk2E7m5" target="_blank" className="nav-dark">Discord</a>
+          <a href="https://discord.gg/2N5wVwsRAe" target="_blank" className="nav-dark">Discord</a>
         </div>
       </div>
     );
@@ -35,7 +35,7 @@ function MobileOrTabletOverlay(props) {
           <a href="https://twitter.com/FluidNFT_" target="_blank" className="nav-light">Twitter</a>
         </div>
         <div className="overlay-nav valign-text-middle oxanium-medium-black-48px nav-light">
-          <a href="https://discord.gg/sBk2E7m5" target="_blank" className="nav-light">Discord</a>
+          <a href="https://discord.gg/2N5wVwsRAe" target="_blank" className="nav-light">Discord</a>
         </div>
       </div>
     );    
