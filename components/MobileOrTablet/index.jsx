@@ -82,27 +82,27 @@ function MobileOrTablet(props) {
             <img className="section-three-title-1" src={sectionThreeTitle} />
           </div>
           <div className="section-3a">
-            <div className="section-4 valign-text-middle oxanium-normal-electric-violet-48px">
+            <div className="section-4 valign-text-middle oxanium-medium-electric-violet-48px">
               <span>
-                <span className="oxanium-normal-electric-violet-48px">{spanText}</span>
+                <span className="oxanium-medium-electric-violet-48px">{spanText}</span>
                 <span className="oxanium-bold-electric-violet-56px">{spanText2}</span>
               </span>
             </div>
             <div className="section-5 valign-text-middle oxanium-medium-white-48px">{sectionFourText}</div>
           </div>
           <div className="section-3a">
-            <div className="section-five-title-1 valign-text-middle oxanium-normal-heat-wave-48px">
+            <div className="section-five-title-1 valign-text-middle oxanium-medium-royal-heath-48px">
               <span>
-                <span className="oxanium-normal-royal-heath-48px">{spanText3}</span>
+                <span className="oxanium-medium-royal-heath-48px">{spanText3}</span>
                 <span className="oxanium-bold-royal-heath-56px">{spanText4}</span>
               </span>
             </div>
             <div className="section-five-text-1 valign-text-middle oxanium-medium-white-48px">{sectionFiveText}</div>
           </div>
           <div className="section-3a">
-            <div className="section-4 valign-text-middle oxanium-normal-royal-heath-48px">
+            <div className="section-4 valign-text-middle oxanium-medium-heat-wave-48px">
               <span>
-                <span className="oxanium-normal-heat-wave-48px">{spanText5}</span>
+                <span className="oxanium-medium-heat-wave-48px">{spanText5}</span>
                 <span className="oxanium-bold-heat-wave-56px">{spanText6}</span>
               </span>
             </div>
@@ -182,27 +182,27 @@ function MobileOrTablet(props) {
             <img className="section-three-title-1" src={sectionThreeTitle} />
           </div>
           <div className="section-3a-light">
-            <div className="section-4 valign-text-middle oxanium-normal-electric-violet-48px">
+            <div className="section-4 valign-text-middle oxanium-medium-electric-violet-48px">
               <span>
-                <span className="oxanium-normal-electric-violet-48px">{spanText}</span>
+                <span className="oxanium-medium-electric-violet-48px">{spanText}</span>
                 <span className="oxanium-bold-electric-violet-56px">{spanText2}</span>
               </span>
             </div>
             <div className="section-5 valign-text-middle oxanium-medium-black-48px">{sectionFourText}</div>
           </div>
           <div className="section-3a-light">
-            <div className="section-five-title-1 valign-text-middle oxanium-normal-heat-wave-48px">
+            <div className="section-five-title-1 valign-text-middle oxanium-medium-royal-heath-48px">
               <span>
-                <span className="oxanium-normal-royal-heath-48px">{spanText3}</span>
+                <span className="oxanium-medium-royal-heath-48px">{spanText3}</span>
                 <span className="oxanium-bold-royal-heath-56px">{spanText4}</span>
               </span>
             </div>
             <div className="section-five-text-1 valign-text-middle oxanium-medium-black-48px">{sectionFiveText}</div>
           </div>
           <div className="section-3a-light">
-            <div className="section-4 valign-text-middle oxanium-normal-royal-heath-48px">
+            <div className="section-4 valign-text-middle oxanium-medium-heat-wave-48px">
               <span>
-                <span className="oxanium-normal-heat-wave-48px">{spanText5}</span>
+                <span className="oxanium-medium-heat-wave-48px">{spanText5}</span>
                 <span className="oxanium-bold-heat-wave-56px">{spanText6}</span>
               </span>
             </div>
@@ -213,8 +213,8 @@ function MobileOrTablet(props) {
             <div className="section-seven-text-1 valign-text-middle oxanium-medium-black-56px">
               <span>
                 <span className="oxanium-medium-black-56px">{spanText7}</span>
-                <span className="span1-1 oxanium-medium-royal-health-56px">
-                <a href="mailto:partner@fluidnft.org" className="oxanium-medium-royal-health-56px">{spanText8}</a>
+                <span className="span1-1 oxanium-medium-royal-heath-56px">
+                <a href="mailto:partner@fluidnft.org" className="oxanium-medium-royal-heath-56px">{spanText8}</a>
                 </span>
               </span>
             </div>

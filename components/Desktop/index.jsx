@@ -72,27 +72,27 @@ function Desktop(props) {
           <img className="section-three-title" src={sectionThreeTitle} />
         </div>
         <div className="section">
-          <div className="section-1 valign-text-middle oxanium-normal-electric-violet-36px">
+          <div className="section-1 valign-text-middle oxanium-medium-electric-violet-36px">
             <span>
-              <span className="oxanium-normal-electric-violet-36px">{spanText}</span>
+              <span className="oxanium-medium-electric-violet-36px">{spanText}</span>
               <span className="oxanium-bold-electric-violet-48px">{spanText2}</span>
             </span>
           </div>
           <div className="section-2 valign-text-middle oxanium-medium-white-32px">{sectionFourText}</div>
         </div>
         <div className="section">
-          <div className="section-five-title valign-text-middle oxanium-normal-heat-wave-36px">
+          <div className="section-five-title valign-text-middle oxanium-medium-royal-heath-36px">
             <span>
-              <span className="oxanium-normal-royal-heath-36px">{spanText3}</span>
+              <span className="oxanium-medium-royal-heath-36px">{spanText3}</span>
               <span className="oxanium-bold-royal-heath-48px">{spanText4}</span>
             </span>
           </div>
           <div className="section-five-text valign-text-middle oxanium-medium-white-32px">{sectionFiveText}</div>
         </div>
         <div className="section">
-          <div className="section-1 valign-text-middle oxanium-normal-royal-heath-36px">
+          <div className="section-1 valign-text-middle oxanium-medium-heat-wave-36px">
             <span>
-              <span className="oxanium-normal-heat-wave-36px">{spanText5}</span>
+              <span className="oxanium-medium-heat-wave-36px">{spanText5}</span>
               <span className="oxanium-bold-heat-wave-48px">{spanText6}</span>
             </span>
           </div>
@@ -164,27 +164,27 @@ function Desktop(props) {
           <img className="section-three-title" src={sectionThreeTitle} />
         </div>
         <div className="section-light">
-          <div className="section-1 valign-text-middle oxanium-normal-electric-violet-36px">
+          <div className="section-1 valign-text-middle oxanium-medium-electric-violet-36px">
             <span>
-              <span className="oxanium-normal-electric-violet-36px">{spanText}</span>
+              <span className="oxanium-medium-electric-violet-36px">{spanText}</span>
               <span className="oxanium-bold-electric-violet-48px">{spanText2}</span>
             </span>
           </div>
           <div className="section-2 valign-text-middle oxanium-medium-black-32px">{sectionFourText}</div>
         </div>
         <div className="section-light">
-          <div className="section-five-title valign-text-middle oxanium-normal-heat-wave-36px">
+          <div className="section-five-title valign-text-middle oxanium-medium-royal-heath-36px">
             <span>
-              <span className="oxanium-normal-royal-heath-36px">{spanText3}</span>
+              <span className="oxanium-medium-royal-heath-36px">{spanText3}</span>
               <span className="oxanium-bold-royal-heath-48px">{spanText4}</span>
             </span>
           </div>
           <div className="section-five-text valign-text-middle oxanium-medium-black-32px">{sectionFiveText}</div>
         </div>
         <div className="section-light">
-          <div className="section-1 valign-text-middle oxanium-normal-royal-heath-36px">
+          <div className="section-1 valign-text-middle oxanium-medium-heat-wave-36px">
             <span>
-              <span className="oxanium-normal-heat-wave-36px">{spanText5}</span>
+              <span className="oxanium-medium-heat-wave-36px">{spanText5}</span>
               <span className="oxanium-bold-heat-wave-48px">{spanText6}</span>
             </span>
           </div>

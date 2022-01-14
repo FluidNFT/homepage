@@ -99,6 +99,14 @@
   font-weight: 400;
 }
 
+.oxanium-medium-electric-violet-36px {
+  color: #5001eb;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
 .oxanium-normal-heat-wave-36px {
   color: #ff7401;
   font-family: var(--font-family-oxanium);
@@ -113,6 +121,14 @@
   font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
+}
+
+.oxanium-medium-royal-heath-36px {
+  color: #aa3c73;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
 }
 
 .oxanium-normal-electric-violet-32px {
@@ -243,6 +259,14 @@
   font-weight: 400;
 }
 
+.oxanium-medium-electric-violet-48px {
+  color: #5001eb;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
 .oxanium-bold-electric-violet-48px {
   color: #5001eb;
   font-family: var(--font-family-oxanium);
@@ -265,6 +289,14 @@
   font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
+}
+
+.oxanium-medium-heat-wave-48px {
+  color: #ff7401;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
 }
 
 .oxanium-bold-heat-wave-48px {
@@ -291,7 +323,7 @@
   font-weight: 500;
 }
 
-.oxanium-medium-royal-health-56px {
+.oxanium-medium-royal-heath-56px {
   color: #aa3c73;
   font-family: var(--font-family-oxanium);
   font-size: var(--font-size-xxl);
@@ -305,6 +337,14 @@
   font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
+}
+
+.oxanium-medium-royal-heath-48px {
+  color: #aa3c73;
+  font-family: var(--font-family-oxanium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
 }
 
 .oxanium-bold-royal-heath-48px {

@@ -73,6 +73,7 @@
   margin-top: 20vh;
   text-align: center;
   width: 85%;
+  z-index: 200;
 }
 
 .section-one-text-1 {
@@ -80,6 +81,7 @@
   letter-spacing: 0;
   text-align: center;
   width: 85%;
+  z-index: 200;
 }
 
 .overlap-group4-1 {
