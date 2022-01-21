@@ -25,7 +25,7 @@ export default App;
 const desktopData = {
     logoDarkMode: "/img/fluidlogonegativesmall@2x.png",
     background: "/img/background-image@1x.png",
-    sectionOneText: "FluidNFT Protocol enables instant, permissionless NFT-collateralized loans on Ethereum. We partner with NFT Creators and DAOs to provide this utility for their community while generating yield from their treasury to help support their mission.",
+    sectionOneText: "FluidNFT Protocol enables instant, permissionless NFT-collateralized loans on Ethereum. We partner with NFT Creators and DAOs to provide this utility for their community while generating yield from the treasury to help support their mission.",
     sectionOneTitle: "Decentralized finance for the NFT Community, by the NFT Community",
     actionText: "Learn more",
     sectionTwoTitle: "/img/section-two-title.png",
@@ -60,7 +60,7 @@ const desktopData = {
 const mobileOrTabletData = {
     logoDarkMode: "/img/fluidlogonegativesmall@2x.png",
     sectionOneTitle: "Decentralized finance for the NFT Community, by the NFT Community",
-    sectionOneText: "FluidNFT Protocol enables instant, permissionless NFT-collateralized loans on Ethereum. We partner with NFT Creators and DAOs to provide this utility for their community while generating yield from their treasury to help support their mission.",
+    sectionOneText: "FluidNFT Protocol enables instant, permissionless NFT-collateralized loans on Ethereum. We partner with NFT Creators and DAOs to provide this utility for their community while generating yield from the treasury to help support their mission.",
     overlapGroup4: "/img/background-image-1@1x.png",
     actionText: "Learn more",
     sectionTwoTitle: "/img/section-two-title.png",
