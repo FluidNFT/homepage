@@ -150,7 +150,7 @@
   background-color: #191b1f;
   display: flex;
   flex-direction: column;
-  height: 1550px;
+  height: 1540px;
   width: 100%;
 }
 
@@ -166,7 +166,7 @@
   background-color: #EFF1F0;
   display: flex;
   flex-direction: column;
-  height: 1550px;
+  height: 1540px;
   width: 100%;
 }
 
@@ -224,7 +224,7 @@
   margin-left: 9.71%;
   margin-right: 9.71%;
   margin-top: 5vh;
-  max-height: 925px;
+  max-height: 1040px;
 }
 
 .section-five-title-1 {
@@ -243,7 +243,7 @@
   margin-left: 9.71%;
   margin-right: 9.71%;
   margin-top: 5vh;
-  max-height: 925px;
+  max-height: 1040px;
   text-align: right;
 }
 
