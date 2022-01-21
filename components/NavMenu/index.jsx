@@ -14,7 +14,7 @@ function NavMenu(props) {
     return (
       <div className="nav-menu oxanium-medium-celeste-18px">
         <div className="nav-menu-dark nav-docs valign-text-middle">
-        <a href="https://niftrr.gitbook.io/fluidnft/" target="_blank" className="nav-menu-dark">Docs</a>
+        <a href="https://docs.fluidnft.org/" target="_blank" className="nav-menu-dark">Docs</a>
         </div>
         <div className="nav-menu-dark nav-twitter valign-text-middle">
         <a href="https://twitter.com/FluidNFT_" target="_blank" className="nav-menu-dark">Twitter</a>
@@ -32,7 +32,7 @@ function NavMenu(props) {
     return (
       <div className="nav-menu oxanium-medium-eerie-18px">
         <div className="nav-menu-light nav-docs valign-text-middle">
-        <a href="https://niftrr.gitbook.io/fluidnft/" target="_blank" className="nav-menu-light">Docs</a>
+        <a href="https://docs.fluidnft.org/" target="_blank" className="nav-menu-light">Docs</a>
         </div>
         <div className="nav-menu-light nav-twitter valign-text-middle">
         <a href="https://twitter.com/FluidNFT_" target="_blank" className="nav-menu-light">Twitter</a>

@@ -134,7 +134,7 @@ function MobileOrTablet(props) {
               <div className="flex-row">
                 <img className="logo-dark-mode-5" src={logoDarkMode2} />
                 <div className="footer-nav-2 valign-text-middle oxanium-medium-celeste-48px">
-                  <p className="footer-nav-dark"><a href="https://niftrr.gitbook.io/fluidnft/" target="_blank" className="footer-nav-dark">Docs</a></p>
+                  <p className="footer-nav-dark"><a href="https://docs.fluidnft.org/" target="_blank" className="footer-nav-dark">Docs</a></p>
                   <p className="footer-nav-dark"><a href="https://twitter.com/FluidNFT_" target="_blank" className="footer-nav-dark">Twitter</a></p>
                   <p className="footer-nav-dark"><a href="https://discord.gg/2N5wVwsRAe" target="_blank" className="footer-nav-dark">Discord</a></p>
                 </div>
@@ -234,7 +234,7 @@ function MobileOrTablet(props) {
               <div className="flex-row">
                 <img className="logo-dark-mode-5" src={logoLightMode} />
                 <div className="footer-nav-2 valign-text-middle oxanium-medium-black-48px">
-                  <p className="footer-nav-light"><a href="https://niftrr.gitbook.io/fluidnft/" target="_blank" className="footer-nav-light">Docs</a></p>
+                  <p className="footer-nav-light"><a href="https://docs.fluidnft.org/" target="_blank" className="footer-nav-light">Docs</a></p>
                   <p className="footer-nav-light"><a href="https://twitter.com/FluidNFT_" target="_blank" className="footer-nav-light">Twitter</a></p>
                   <p className="footer-nav-light"><a href="https://discord.gg/2N5wVwsRAe" target="_blank" className="footer-nav-light">Discord</a></p>
                 </div>
