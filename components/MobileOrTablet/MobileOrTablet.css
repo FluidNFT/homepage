@@ -82,6 +82,7 @@
   text-align: center;
   width: 85%;
   z-index: 200;
+  margin-top: 2px;
 }
 
 .overlap-group4-1 {
@@ -224,7 +225,7 @@
   margin-left: 9.71%;
   margin-right: 9.71%;
   margin-top: 5vh;
-  max-height: 800px;
+  max-height: 850px;
 }
 
 .section-five-title-1 {
@@ -243,7 +244,7 @@
   margin-left: 9.71%;
   margin-right: 9.71%;
   margin-top: 5vh;
-  max-height: 800px;
+  max-height: 850px;
   text-align: right;
 }
 
