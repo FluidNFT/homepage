@@ -68,7 +68,7 @@
 }
 
 .section-one-title-1 {
-  height: 285px;
+  height: 400px;
   letter-spacing: 0;
   margin-top: 20vh;
   text-align: center;
@@ -77,12 +77,11 @@
 }
 
 .section-one-text-1 {
-  height: 285px;
+  height: 400px;
   letter-spacing: 0;
   text-align: center;
   width: 85%;
   z-index: 200;
-  margin-top: 5px;
 }
 
 .overlap-group4-1 {
@@ -143,7 +142,7 @@
   background-color: #191b1f;
   display: flex;
   flex-direction: column;
-  height: 994px;
+  height: 1094px;
   width: 100%;
 }
 
@@ -225,7 +224,7 @@
   margin-left: 9.71%;
   margin-right: 9.71%;
   margin-top: 5vh;
-  max-height: 900px;
+  max-height: 925px;
 }
 
 .section-five-title-1 {
@@ -244,7 +243,7 @@
   margin-left: 9.71%;
   margin-right: 9.71%;
   margin-top: 5vh;
-  max-height: 900px;
+  max-height: 925px;
   text-align: right;
 }
 
